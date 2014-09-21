@@ -28,20 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("中级教程");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("中级听力");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("中级阅读");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("中级口语");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Courses", new System.Windows.Forms.TreeNode[] {
-            treeNode11,
-            treeNode12,
-            treeNode13,
-            treeNode14});
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Courses");
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeViewUnits = new System.Windows.Forms.TreeView();
+            this.tabControlMain = new System.Windows.Forms.TabControl();
+            this.tabPageVocabulary = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.columnVoc_中文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnVoc_拼音 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnVoc_词性 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.columnVoc_英文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnVoc_英文and1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnVoc_英文alt1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataManagerClasses = new SG.Learning.DevelopingChinese.DataManagerComponent(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            this.tabControlMain.SuspendLayout();
+            this.tabPageVocabulary.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -53,6 +61,10 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.treeViewUnits);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.tabControlMain);
             this.splitContainer1.Size = new System.Drawing.Size(741, 603);
             this.splitContainer1.SplitterDistance = 118;
             this.splitContainer1.TabIndex = 0;
@@ -62,20 +74,113 @@
             this.treeViewUnits.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeViewUnits.Location = new System.Drawing.Point(0, 0);
             this.treeViewUnits.Name = "treeViewUnits";
-            treeNode11.Name = "NodeZhongjiJiaocheng";
-            treeNode11.Text = "中级教程";
-            treeNode12.Name = "NodeZhongjiTingli";
-            treeNode12.Text = "中级听力";
-            treeNode13.Name = "NodeZhongjiYuedu";
-            treeNode13.Text = "中级阅读";
-            treeNode14.Name = "NodeZhongjiKouyu";
-            treeNode14.Text = "中级口语";
-            treeNode15.Name = "NodeCourses";
-            treeNode15.Text = "Courses";
+            treeNode1.Name = "NodeCourses";
+            treeNode1.Text = "Courses";
             this.treeViewUnits.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode15});
+            treeNode1});
             this.treeViewUnits.Size = new System.Drawing.Size(118, 603);
             this.treeViewUnits.TabIndex = 0;
+            this.treeViewUnits.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewUnits_AfterSelect);
+            // 
+            // tabControlMain
+            // 
+            this.tabControlMain.Controls.Add(this.tabPageVocabulary);
+            this.tabControlMain.Controls.Add(this.tabPage1);
+            this.tabControlMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlMain.Location = new System.Drawing.Point(0, 0);
+            this.tabControlMain.Name = "tabControlMain";
+            this.tabControlMain.SelectedIndex = 0;
+            this.tabControlMain.Size = new System.Drawing.Size(619, 603);
+            this.tabControlMain.TabIndex = 0;
+            // 
+            // tabPageVocabulary
+            // 
+            this.tabPageVocabulary.Controls.Add(this.dataGridView1);
+            this.tabPageVocabulary.Location = new System.Drawing.Point(4, 22);
+            this.tabPageVocabulary.Name = "tabPageVocabulary";
+            this.tabPageVocabulary.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageVocabulary.Size = new System.Drawing.Size(611, 577);
+            this.tabPageVocabulary.TabIndex = 1;
+            this.tabPageVocabulary.Text = "Vocabulary";
+            this.tabPageVocabulary.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.columnVoc_中文,
+            this.columnVoc_拼音,
+            this.columnVoc_词性,
+            this.columnVoc_英文,
+            this.columnVoc_英文and1,
+            this.columnVoc_英文alt1});
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(605, 571);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView1_DataError);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(611, 577);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "Text";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // columnVoc_中文
+            // 
+            this.columnVoc_中文.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.columnVoc_中文.HeaderText = "Chinese";
+            this.columnVoc_中文.Name = "columnVoc_中文";
+            this.columnVoc_中文.Width = 70;
+            // 
+            // columnVoc_拼音
+            // 
+            this.columnVoc_拼音.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.columnVoc_拼音.HeaderText = "Pinyin";
+            this.columnVoc_拼音.Name = "columnVoc_拼音";
+            this.columnVoc_拼音.Width = 60;
+            // 
+            // columnVoc_词性
+            // 
+            this.columnVoc_词性.HeaderText = "Class";
+            this.columnVoc_词性.Items.AddRange(new object[] {
+            "verb",
+            "noun",
+            "adj",
+            "adv",
+            "idiom",
+            "noun",
+            "conj",
+            "suffix",
+            "prefix",
+            "prep"});
+            this.columnVoc_词性.Name = "columnVoc_词性";
+            // 
+            // columnVoc_英文
+            // 
+            this.columnVoc_英文.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.columnVoc_英文.HeaderText = "English";
+            this.columnVoc_英文.Name = "columnVoc_英文";
+            this.columnVoc_英文.Width = 66;
+            // 
+            // columnVoc_英文and1
+            // 
+            this.columnVoc_英文and1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.columnVoc_英文and1.HeaderText = "English - Add.";
+            this.columnVoc_英文and1.Name = "columnVoc_英文and1";
+            this.columnVoc_英文and1.Width = 69;
+            // 
+            // columnVoc_英文alt1
+            // 
+            this.columnVoc_英文alt1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.columnVoc_英文alt1.HeaderText = "English - Alternative";
+            this.columnVoc_英文alt1.Name = "columnVoc_英文alt1";
+            this.columnVoc_英文alt1.Width = 114;
             // 
             // UnitsForm
             // 
@@ -88,8 +193,12 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.UnitsForm_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.tabControlMain.ResumeLayout(false);
+            this.tabPageVocabulary.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -98,6 +207,17 @@
 
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TreeView treeViewUnits;
+        private DataManagerComponent dataManagerClasses;
+        private System.Windows.Forms.TabControl tabControlMain;
+        private System.Windows.Forms.TabPage tabPageVocabulary;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnVoc_中文;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnVoc_拼音;
+        private System.Windows.Forms.DataGridViewComboBoxColumn columnVoc_词性;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnVoc_英文;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnVoc_英文and1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnVoc_英文alt1;
     }
 }
 

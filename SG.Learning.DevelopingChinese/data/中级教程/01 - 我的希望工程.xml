@@ -21,7 +21,6 @@
   <WindowWidth>22035</WindowWidth>
   <WindowTopX>120</WindowTopX>
   <WindowTopY>60</WindowTopY>
-  <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -36,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="vocabulary">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="60" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="63" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="50.25"/>
    <Column ss:Width="129.75"/>
@@ -47,8 +46,8 @@
     <Cell><Data ss:Type="String">拼音</Data></Cell>
     <Cell><Data ss:Type="String">词性</Data></Cell>
     <Cell><Data ss:Type="String">英文</Data></Cell>
-    <Cell><Data ss:Type="String">英文,2</Data></Cell>
-    <Cell><Data ss:Type="String">英文;1</Data></Cell>
+    <Cell><Data ss:Type="String">英文and1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">发布</Data></Cell>
@@ -238,7 +237,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">感激</Data></Cell>
     <Cell><Data ss:Type="String">gan3 ji1</Data></Cell>
-    <Cell><Data ss:Type="String">dong</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
     <Cell><Data ss:Type="String">to be thankful</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -305,7 +304,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">平均</Data></Cell>
     <Cell><Data ss:Type="String">ping2 jun1</Data></Cell>
-    <Cell><Data ss:Type="String">verg</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
     <Cell><Data ss:Type="String">to average</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -413,6 +412,25 @@
     <Cell><Data ss:Type="String">noun</Data></Cell>
     <Cell><Data ss:Type="String">the world</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">对得起</Data></Cell>
+    <Cell><Data ss:Type="String">dui4 de qi3</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to be worthy of</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">无论</Data></Cell>
+    <Cell><Data ss:Type="String">wu2 lun4</Data></Cell>
+    <Cell><Data ss:Type="String">conj</Data></Cell>
+    <Cell><Data ss:Type="String">no matter what/how, etc.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">挫折</Data></Cell>
+    <Cell><Data ss:Type="String">cuo4 zhe2</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">setback</Data></Cell>
+    <Cell><Data ss:Type="String">reverse</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -421,12 +439,13 @@
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
    <Unsynced/>
-   <TopRowVisible>16</TopRowVisible>
+   <Selected/>
+   <TopRowVisible>32</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>25</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>32</ActiveRow>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -457,12 +476,12 @@
     <Cell><Data ss:Type="String">几年来，“希望工程”救助了成千上万的失学青少年，便他们重新回到了校园。</Data></Cell>
    </Row>
    <Row ss:Index="9" ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">一位北京的大学生发到了开风山少年的一封信，由此引出下面一个感人的故事————</Data></Cell>
-    <Cell><Data ss:Type="String">yi1 wei4 bei1jing1 de da4xue2sheng1 fa1bu4 dao4 le kai1feng1shan1 </Data></Cell>
+    <Cell><Data ss:Type="String">一位北京的大学生发到了井冈山少年的一封信，由此引出下面一个感人的故事————</Data></Cell>
+    <Cell><Data ss:Type="String">yi1 wei4 bei1jing1 de da4xue2sheng1 fa1bu4 dao4 le Jing3gang1 Shan1 </Data></Cell>
    </Row>
    <Row ss:Index="11" ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">我用颤抖的手拆开邮报，由于激动，用力过猛，葵花子洒了一地。不知道怎么，</Data></Cell>
-    <Cell><Data ss:Type="String">wo3</Data></Cell>
+    <Cell><Data ss:Type="String">wo3 yong4 </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">我的心理一酸，跟钱一片模糊。人们常说，男子汉是轻易不掉眼泪的。可此时，我控制不住自己了。</Data></Cell>
@@ -478,21 +497,48 @@
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
    <Unsynced/>
-   <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>1</ActiveRow>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
  </Worksheet>
- <Worksheet ss:Name="Sheet3">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+ <Worksheet ss:Name="proper">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="5" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row ss:AutoFitHeight="0"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="246.75"/>
+   <Column ss:Width="508.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+    <Cell><Data ss:Type="String">英文</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中国青少年发展基金会</Data></Cell>
+    <Cell><Data ss:Type="String">Zhong1guo2 Qing1shao4nian2 Fa1zhan3 Ji1jin1hui4</Data></Cell>
+    <Cell><Data ss:Type="String">China Youth Development Foundation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">井冈山</Data></Cell>
+    <Cell><Data ss:Type="String">Jing3gang1 Shan1</Data></Cell>
+    <Cell><Data ss:Type="String">Jinggang Mountain, a montain located in the remote border region between Jiangxi and Hunan provinces</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">黄志强</Data></Cell>
+    <Cell><Data ss:Type="String">Huang2 Zhi4qiang2</Data></Cell>
+    <Cell><Data ss:Type="String">name of a person</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">江西</Data></Cell>
+    <Cell><Data ss:Type="String">Jiang1xi1</Data></Cell>
+    <Cell><Data ss:Type="String">Jiangxi province, a southern province in China</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -501,6 +547,12 @@
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
    <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+    </Pane>
+   </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
