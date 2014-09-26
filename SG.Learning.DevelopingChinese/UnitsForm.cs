@@ -91,6 +91,7 @@ namespace SG.Learning.DevelopingChinese
 
         private void dataGridView1_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
+            MessageBox.Show("Error at: " + e.RowIndex);
             e.Cancel = true;
         }
     }

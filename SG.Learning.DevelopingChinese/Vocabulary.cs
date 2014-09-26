@@ -59,9 +59,7 @@ namespace SG.Learning.DevelopingChinese
                 result = null;
                 foreach (var cell in Element.SpreadsheetElements("Cell"))
                 {
-                    var indexAttribute = cell.SpreadsheetAttribute("Index");
-                    if (indexAttribute != null)
-                        currentIdx = indexAttribute.AsInteger();
+                    ParseAndUpdateIndexValue(cell, ref index);
 
                     if (currentIdx == index)
                     {
@@ -80,9 +78,7 @@ namespace SG.Learning.DevelopingChinese
                 result = null;
                 foreach (var cell in Element.SpreadsheetElements("Cell"))
                 {
-                    var indexAttribute = cell.SpreadsheetAttribute("Index");
-                    if (indexAttribute != null)
-                        index = indexAttribute.AsInteger();
+                    ParseAndUpdateIndexValue(cell, ref index);
 
                     if (cell.Value == value)
                     {
@@ -93,6 +89,13 @@ namespace SG.Learning.DevelopingChinese
                     index++;
                 }
                 return false;
+            }
+
+            private static void ParseAndUpdateIndexValue(XElement cell, ref int index)
+            {
+                var indexAttribute = cell.SpreadsheetAttribute("Index");
+                if (indexAttribute != null)
+                    index = indexAttribute.AsInteger() - 1;
             }
         }
 

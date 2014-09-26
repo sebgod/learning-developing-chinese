@@ -36,13 +36,13 @@
             this.tabPageVocabulary = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataManagerClasses = new SG.Learning.DevelopingChinese.DataManagerComponent(this.components);
             this.columnVoc_中文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_拼音 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_词性 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.columnVoc_英文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_英文and1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_英文alt1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataManagerClasses = new SG.Learning.DevelopingChinese.DataManagerComponent(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -158,7 +158,8 @@
             "conj",
             "suffix",
             "prefix",
-            "prep"});
+            "prep",
+            "pronoun"});
             this.columnVoc_词性.Name = "columnVoc_词性";
             // 
             // columnVoc_英文
@@ -173,7 +174,7 @@
             this.columnVoc_英文and1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.columnVoc_英文and1.HeaderText = "English - Add.";
             this.columnVoc_英文and1.Name = "columnVoc_英文and1";
-            this.columnVoc_英文and1.Width = 69;
+            this.columnVoc_英文and1.Width = 97;
             // 
             // columnVoc_英文alt1
             // 
