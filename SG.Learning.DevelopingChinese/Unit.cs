@@ -2,15 +2,14 @@
 
 namespace SG.Learning.DevelopingChinese
 {
-    public class Unit
-    {   
-        private readonly XDocument _spreadsheetML;
+    public class Unit : XmlBasedDataBase
+    {
         private readonly Vocabulary _vocabulary;
 
         public Unit(XDocument spreadsheetML)
+            : base(spreadsheetML)
         {
-            _spreadsheetML = spreadsheetML;
-            var root = _spreadsheetML.Root;
+            var root = XmlDocument.Root;
             if (root == null || !root.HasElements) return;
 
             var worksheets = root.SpreadsheetElements("Worksheet");

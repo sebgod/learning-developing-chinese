@@ -51,6 +51,7 @@
     <Compile Include="DataManagerComponent.Designer.cs">
       <DependentUpon>DataManagerComponent.cs</DependentUpon>
     </Compile>
+    <Compile Include="FlashcardStore.cs" />
     <Compile Include="TreeNodeHelper.cs" />
     <Compile Include="Unit.cs" />
     <Compile Include="UnitFile.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vocabulary.cs" />
+    <Compile Include="XmlBasedDataBase.cs" />
     <Compile Include="XmlHelper.cs" />
     <EmbeddedResource Include="UnitsForm.resx">
       <DependentUpon>UnitsForm.cs</DependentUpon>
@@ -90,6 +92,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\flash.xml" />
     <Content Include="data\中级教程\01 - 我的希望工程.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
