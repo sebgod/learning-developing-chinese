@@ -30,10 +30,10 @@ namespace SG.Learning.DevelopingChinese
         private IEnumerable<TreeNode> EnumerateClassFolders()
         {
             return
-                from dataFolder in dataManagerClasses.EnumerateDataFolders()
-                let classNode = new TreeNode(dataFolder.Name) {Tag = dataFolder}
+                from unitFolder in dataManagerClasses.EnumerateDataFolders("units")
+                let classNode = new TreeNode(unitFolder.Name) {Tag = unitFolder}
                 where classNode.AddChildrenIfAny(
-                    dataFolder.EnumerateUnits(),
+                    unitFolder.EnumerateUnits(),
                     unitFile => new TreeNode(unitFile.Name) {Tag = unitFile})
                 select classNode;
         }
@@ -91,7 +91,7 @@ namespace SG.Learning.DevelopingChinese
 
         private void dataGridView1_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
-            MessageBox.Show("Error at: " + e.RowIndex);
+            MessageBox.Show(string.Format("Error {1}@{0:d}", e.RowIndex, e.Exception.Message));
             e.Cancel = true;
         }
     }

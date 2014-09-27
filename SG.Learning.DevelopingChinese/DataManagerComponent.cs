@@ -34,9 +34,10 @@ namespace SG.Learning.DevelopingChinese
         [Description("The directory where the XML data is stored")]
         public DirectoryInfo DataDirectory { get; private set; }
 
-        public IEnumerable<DataFolder> EnumerateDataFolders()
+        public IEnumerable<DataFolder> EnumerateDataFolders(string subDir)
         {
-            return DataDirectory.EnumerateDirectories().Select(childDir => new DataFolder(childDir));
+            var specificDataDir = DataDirectory.EnumerateDirectories(subDir).First();
+            return specificDataDir.EnumerateDirectories().Select(childDir => new DataFolder(childDir));
         }
     }
 }

@@ -92,8 +92,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\flash.xml" />
-    <Content Include="data\中级教程\01 - 我的希望工程.xml" />
+    <Content Include="data\learning\flash.xml" />
+    <Content Include="data\units\中级教程\01 - 我的希望工程.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
