@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -15,9 +16,15 @@ namespace SG.Learning.DevelopingChinese
 
         public string Name { get { return _directory.Name; } }
 
-        public IEnumerable<UnitFile> EnumerateUnits()
+        public IEnumerable<DataFile<T>> EnumerateDataFiles<T>(Func<FileInfo, DataFile<T>> dataFileParser)
+            where T : class
         {
-            return _directory.EnumerateFiles("*.xml").Select(unitFile => new UnitFile(this, unitFile));
+            return EnumerateXmlFiles().Select(dataFileParser);
+        }
+
+        private IEnumerable<FileInfo> EnumerateXmlFiles()
+        {
+            return _directory.EnumerateFiles("*.xml");
         }
     }
 }

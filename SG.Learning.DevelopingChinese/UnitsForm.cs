@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,26 +17,21 @@ namespace SG.Learning.DevelopingChinese
         private async void UnitsForm_Load(object sender, EventArgs e)
         {
             await Task.Run(() => InitializeDataManager());
-            var classNode = treeViewUnits.Nodes["NodeCourses"];
-            classNode.Nodes.AddRange(await Task.Run(() => EnumerateClassFolders().ToArray()));
+            await AddDataFilesToTreeAsync(DataSubFolder.Courses, UnitFile.Parse);
             treeViewUnits.ExpandAll();
         }
 
         #region Data Manager
         private void InitializeDataManager()
         {
-            dataManagerClasses.SetRoot(Application.StartupPath);
+            dataManagerComponent.SetRoot(Application.StartupPath);
         }
 
-        private IEnumerable<TreeNode> EnumerateClassFolders()
+        private async Task AddDataFilesToTreeAsync<T>(DataSubFolder subFolder, Func<FileInfo, DataFile<T>> fileParser)
+            where T : class
         {
-            return
-                from unitFolder in dataManagerClasses.EnumerateDataFolders("units")
-                let classNode = new TreeNode(unitFolder.Name) {Tag = unitFolder}
-                where classNode.AddChildrenIfAny(
-                    unitFolder.EnumerateUnits(),
-                    unitFile => new TreeNode(unitFile.Name) {Tag = unitFile})
-                select classNode;
+            var dataFiles = dataManagerComponent.EnumerateDataFiles(subFolder, fileParser);
+            treeViewUnits.Nodes["Node" + subFolder].Nodes.AddRange(await Task.Run(() => dataFiles.ToArray()));
         }
 
         #endregion

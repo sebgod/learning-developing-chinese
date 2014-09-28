@@ -36,7 +36,7 @@
             this.tabPageVocabulary = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.dataManagerClasses = new SG.Learning.DevelopingChinese.DataManagerComponent(this.components);
+            this.dataManagerComponent = new SG.Learning.DevelopingChinese.DataManagerComponent(this.components);
             this.columnVoc_中文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_拼音 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_词性 = new System.Windows.Forms.DataGridViewComboBoxColumn();
@@ -208,7 +208,7 @@
 
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TreeView treeViewUnits;
-        private DataManagerComponent dataManagerClasses;
+        private DataManagerComponent dataManagerComponent;
         private System.Windows.Forms.TabControl tabControlMain;
         private System.Windows.Forms.TabPage tabPageVocabulary;
         private System.Windows.Forms.TabPage tabPage1;

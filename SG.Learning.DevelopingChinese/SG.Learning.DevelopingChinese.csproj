@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataFile.cs" />
     <Compile Include="DataFolder.cs" />
     <Compile Include="DataManagerComponent.cs">
       <SubType>Component</SubType>
@@ -51,6 +52,7 @@
     <Compile Include="DataManagerComponent.Designer.cs">
       <DependentUpon>DataManagerComponent.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSubFolder.cs" />
     <Compile Include="FlashcardStore.cs" />
     <Compile Include="TreeNodeHelper.cs" />
     <Compile Include="Unit.cs" />
@@ -92,8 +94,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\learning\flash.xml" />
-    <Content Include="data\units\中级教程\01 - 我的希望工程.xml" />
+    <Content Include="data\Learning\flash.xml" />
+    <Content Include="data\Courses\中级教程\01 - 我的希望工程.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
