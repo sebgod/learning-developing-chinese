@@ -50,9 +50,14 @@ namespace SG.Learning.DevelopingChinese
         private async void treeViewUnits_AfterSelect(object sender, TreeViewEventArgs e)
         {
             var unitFile = e.Node.Tag as UnitFile;
-            if (unitFile == null) return;
-            // HACK: This is only temporary
-            if (dataGridView1.RowCount > 1) return;
+            if (unitFile != null)
+                await RenderUnitAsync(unitFile);
+        }
+
+        private async Task RenderUnitAsync(UnitFile unitFile)
+        {
+            if (DataGridCacheEquals(unitFile))
+                return;
 
             var unit = await unitFile.UnitAsync();
             var vocs = unit.Vocabulary;
@@ -68,7 +73,7 @@ namespace SG.Learning.DevelopingChinese
 
                 var colIdx = vocHeader[colName];
                 if (colIdx < 0) continue;
-                
+
                 nameToIdx[colName] = new IdxPair(i, colIdx);
                 dataIdxToName[colIdx] = colName;
             }
@@ -83,6 +88,14 @@ namespace SG.Learning.DevelopingChinese
                 }
                 dataGridView1.Rows.Add(data);
             }
+        }
+
+        private bool DataGridCacheEquals<T>(T unitFile)
+            where T : class
+        {
+            var isSame = unitFile.Equals(dataGridView1.Tag as T);
+            dataGridView1.Tag = unitFile;
+            return isSame;
         }
 
         private void dataGridView1_DataError(object sender, DataGridViewDataErrorEventArgs e)
