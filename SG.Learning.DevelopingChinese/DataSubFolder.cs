@@ -5,6 +5,7 @@ namespace SG.Learning.DevelopingChinese
 {
     public enum DataSubFolder
     {
-        Courses
+        Courses,
+        Learning
     }
 }

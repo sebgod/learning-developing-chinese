@@ -18,6 +18,7 @@ namespace SG.Learning.DevelopingChinese
         {
             await Task.Run(() => InitializeDataManager());
             await AddDataFilesToTreeAsync(DataSubFolder.Courses, UnitFile.Parse);
+            await AddDataFilesToTreeAsync(DataSubFolder.Learning, /* TODO Learning file XML */);
             treeViewUnits.ExpandAll();
         }
 
