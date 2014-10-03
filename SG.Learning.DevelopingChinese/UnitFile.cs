@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -13,15 +14,9 @@ namespace SG.Learning.DevelopingChinese
 
         protected override async Task<Unit> ParseDataFile()
         {
-            return await Task.Run(() =>
-                {
-                    using (var textStream = DataFileInfo.OpenText())
-                    {
-                        return new Unit(XDocument.Load(textStream, LoadOptions.PreserveWhitespace));
-                    }
-                });
+            return await Task.Run(() => ParseXmlFileSharedRead(Unit.LoadFromXml));
         }
-
+        
         public static UnitFile Parse(FileInfo unitFile)
         {
             return new UnitFile(unitFile);

@@ -33,5 +33,10 @@ namespace SG.Learning.DevelopingChinese
         }
 
         public Vocabulary Vocabulary { get { return _vocabulary; } }
+
+        public static Unit LoadFromXml(XDocument spreadsheetML)
+        {
+            return new Unit(spreadsheetML);
+        }
     }
 }

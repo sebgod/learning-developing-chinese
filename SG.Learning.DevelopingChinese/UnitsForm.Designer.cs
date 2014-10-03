@@ -30,19 +30,20 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Courses");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Learning");
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeViewUnits = new System.Windows.Forms.TreeView();
             this.tabControlMain = new System.Windows.Forms.TabControl();
             this.tabPageVocabulary = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.dataManagerComponent = new SG.Learning.DevelopingChinese.DataManagerComponent(this.components);
             this.columnVoc_中文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_拼音 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_词性 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.columnVoc_英文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_英文and1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_英文alt1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataManagerComponent = new SG.Learning.DevelopingChinese.DataManagerComponent(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -76,8 +77,11 @@
             this.treeViewUnits.Name = "treeViewUnits";
             treeNode1.Name = "NodeCourses";
             treeNode1.Text = "Courses";
+            treeNode2.Name = "NodeLearning";
+            treeNode2.Text = "Learning";
             this.treeViewUnits.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1});
+            treeNode1,
+            treeNode2});
             this.treeViewUnits.Size = new System.Drawing.Size(118, 603);
             this.treeViewUnits.TabIndex = 0;
             this.treeViewUnits.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewUnits_AfterSelect);
@@ -120,16 +124,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(605, 571);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView1_DataError);
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(611, 577);
-            this.tabPage1.TabIndex = 2;
-            this.tabPage1.Text = "Text";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // columnVoc_中文
             // 
@@ -174,7 +168,7 @@
             this.columnVoc_英文and1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.columnVoc_英文and1.HeaderText = "English - Add.";
             this.columnVoc_英文and1.Name = "columnVoc_英文and1";
-            this.columnVoc_英文and1.Width = 97;
+            this.columnVoc_英文and1.Width = 69;
             // 
             // columnVoc_英文alt1
             // 
@@ -182,6 +176,16 @@
             this.columnVoc_英文alt1.HeaderText = "English - Alternative";
             this.columnVoc_英文alt1.Name = "columnVoc_英文alt1";
             this.columnVoc_英文alt1.Width = 114;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(611, 577);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "Text";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // UnitsForm
             // 

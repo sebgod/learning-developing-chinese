@@ -17,8 +17,8 @@ namespace SG.Learning.DevelopingChinese
         private async void UnitsForm_Load(object sender, EventArgs e)
         {
             await Task.Run(() => InitializeDataManager());
-            await AddDataFilesToTreeAsync(DataSubFolder.Courses, UnitFile.Parse);
-            await AddDataFilesToTreeAsync(DataSubFolder.Learning, /* TODO Learning file XML */);
+            await AddDataFilesToTreeAsync(DataSubFolder.Courses, UnitFile.Parse, SearchOption.AllDirectories);
+            await AddDataFilesToTreeAsync(DataSubFolder.Learning, FlashcardFile.Parse);
             treeViewUnits.ExpandAll();
         }
 
@@ -28,10 +28,12 @@ namespace SG.Learning.DevelopingChinese
             dataManagerComponent.SetRoot(Application.StartupPath);
         }
 
-        private async Task AddDataFilesToTreeAsync<T>(DataSubFolder subFolder, Func<FileInfo, DataFile<T>> fileParser)
+        private async Task AddDataFilesToTreeAsync<T>(DataSubFolder subFolder,
+            Func<FileInfo, DataFile<T>> fileParser,
+            SearchOption searchOption = SearchOption.TopDirectoryOnly)
             where T : class
         {
-            var dataFiles = dataManagerComponent.EnumerateDataFiles(subFolder, fileParser);
+            var dataFiles = dataManagerComponent.EnumerateDataFiles(subFolder, fileParser, searchOption);
             treeViewUnits.Nodes["Node" + subFolder].Nodes.AddRange(await Task.Run(() => dataFiles.ToArray()));
         }
 

@@ -38,21 +38,45 @@ namespace SG.Learning.DevelopingChinese
 
         public IEnumerable<DataFolder> EnumerateDataFolders(DataSubFolder subFolder)
         {
-            var specificDataDir = DataDirectory.EnumerateDirectories(subFolder.ToString()).First();
-            return specificDataDir.EnumerateDirectories().Select(childDir => new DataFolder(childDir));
+            return OpenSubFolder(subFolder).EnumerateDirectories().Select(childDir => new DataFolder(childDir));
         }
 
+        private DirectoryInfo OpenSubFolder(DataSubFolder subFolder)
+        {
+            return DataDirectory.EnumerateDirectories(subFolder.ToString()).Single();
+        }
 
-        public IEnumerable<TreeNode> EnumerateDataFiles<T>(DataSubFolder subFolder, Func<FileInfo, DataFile<T>> fileParser)
+        public IEnumerable<TreeNode> EnumerateDataFiles<T>(DataSubFolder subFolder,
+                                                           Func<FileInfo, DataFile<T>> fileParser,
+                                                           SearchOption searchOption = SearchOption.TopDirectoryOnly)
             where T : class
         {
-            return
-                from dataFolder in EnumerateDataFolders(subFolder)
-                let treeNode = new TreeNode(dataFolder.Name) { Tag = dataFolder }
-                where treeNode.AddChildrenIfAny(
-                    dataFolder.EnumerateDataFiles(fileParser),
-                    unitFile => new TreeNode(unitFile.Name) { Tag = unitFile })
-                select treeNode;
+            switch (searchOption)
+            {
+                case SearchOption.AllDirectories:
+                    return
+                        from dataFolder in EnumerateDataFolders(subFolder)
+                        let treeNode = new TreeNode(dataFolder.Name) {Tag = dataFolder}
+                        where treeNode.AddChildrenIfAny(
+                            dataFolder.EnumerateDataFiles(fileParser),
+                            DataFileToTreeNode)
+                        select treeNode;
+
+                case SearchOption.TopDirectoryOnly:
+                    return
+                        new DataFolder(OpenSubFolder(subFolder))
+                            .EnumerateDataFiles(fileParser)
+                            .Select(DataFileToTreeNode);
+
+                default:
+                    throw new ArgumentException(searchOption + " is not implemented!", "searchOption");
+            }
+        }
+
+        private static TreeNode DataFileToTreeNode<T>(DataFile<T> dataFile)
+            where T : class 
+        {
+            return new TreeNode(dataFile.Name) { Tag = dataFile };
         }
     }
 }

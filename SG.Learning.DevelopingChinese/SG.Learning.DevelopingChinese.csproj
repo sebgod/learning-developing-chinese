@@ -53,6 +53,7 @@
       <DependentUpon>DataManagerComponent.cs</DependentUpon>
     </Compile>
     <Compile Include="DataSubFolder.cs" />
+    <Compile Include="FlashcardFile.cs" />
     <Compile Include="FlashcardList.cs" />
     <Compile Include="FlashcardStore.cs" />
     <Compile Include="TreeNodeHelper.cs" />

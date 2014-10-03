@@ -17,4 +17,5 @@ namespace SG.Learning.DevelopingChinese
         {
             get { return _creator; }
         }
+    }
 }

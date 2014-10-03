@@ -1,5 +1,7 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace SG.Learning.DevelopingChinese
 {
@@ -30,6 +32,14 @@ namespace SG.Learning.DevelopingChinese
         }
 
         protected abstract Task<T> ParseDataFile();
+
+        protected T ParseXmlFileSharedRead(Func<XDocument, T> parser)
+        {
+            using (var textStream = DataFileInfo.Open(FileMode.Open, FileAccess.ReadWrite, FileShare.Read))
+            {
+                return parser(XDocument.Load(textStream, LoadOptions.PreserveWhitespace));
+            }
+        }
 
         private string _uniqueString;
 

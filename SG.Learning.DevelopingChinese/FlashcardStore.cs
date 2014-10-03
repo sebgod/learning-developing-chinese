@@ -18,5 +18,10 @@ namespace SG.Learning.DevelopingChinese
         {
             get { return _flashcardList; }
         }
+
+        public static FlashcardStore LoadFromXml(XDocument plecoFlashcards)
+        {
+            return new FlashcardStore(plecoFlashcards);
+        }
     }
 }
