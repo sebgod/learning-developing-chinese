@@ -26,7 +26,7 @@ namespace SG.Learning.DevelopingChinese
             get { return Path.GetFileNameWithoutExtension(_dataFile.Name); }
         }
 
-        public async Task<T> UnitAsync()
+        public async Task<T> ParseDataFileAsync()
         {
             return _parsedFileCache ?? (_parsedFileCache = await ParseDataFile());
         }

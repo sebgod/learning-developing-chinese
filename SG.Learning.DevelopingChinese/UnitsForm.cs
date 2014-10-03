@@ -55,6 +55,15 @@ namespace SG.Learning.DevelopingChinese
             var unitFile = e.Node.Tag as UnitFile;
             if (unitFile != null)
                 await RenderUnitAsync(unitFile);
+
+            var flashcardFile = e.Node.Tag as FlashcardFile;
+            if (flashcardFile != null)
+                await RenderFlashcardStoreAsync(flashcardFile);
+        }
+
+        private async Task RenderFlashcardStoreAsync(FlashcardFile flashcardFile)
+        {
+            MessageBox.Show((await flashcardFile.ParseDataFileAsync()).Flashcards.Creator);
         }
 
         private async Task RenderUnitAsync(UnitFile unitFile)
@@ -62,7 +71,7 @@ namespace SG.Learning.DevelopingChinese
             if (DataGridCacheEquals(unitFile))
                 return;
 
-            var unit = await unitFile.UnitAsync();
+            var unit = await unitFile.ParseDataFileAsync();
             var vocs = unit.Vocabulary;
             var vocHeader = unit.Vocabulary.ColumnHeader;
             var gridColCount = dataGridView1.ColumnCount;
