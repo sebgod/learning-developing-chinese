@@ -31,18 +31,19 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Courses");
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Learning");
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeViewUnits = new System.Windows.Forms.TreeView();
             this.tabControlMain = new System.Windows.Forms.TabControl();
             this.tabPageVocabulary = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.columnVoc_中文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_拼音 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_词性 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.columnVoc_英文 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_英文and1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnVoc_英文alt1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataManagerComponent = new SG.Learning.DevelopingChinese.DataManagerComponent(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -123,7 +124,18 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(605, 571);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellParsing += new System.Windows.Forms.DataGridViewCellParsingEventHandler(this.dataGridView1_CellParsing);
             this.dataGridView1.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView1_DataError);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(611, 577);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "Text";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // columnVoc_中文
             // 
@@ -135,26 +147,30 @@
             // columnVoc_拼音
             // 
             this.columnVoc_拼音.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            dataGridViewCellStyle1.NullValue = null;
+            this.columnVoc_拼音.DefaultCellStyle = dataGridViewCellStyle1;
             this.columnVoc_拼音.HeaderText = "Pinyin";
             this.columnVoc_拼音.Name = "columnVoc_拼音";
             this.columnVoc_拼音.Width = 60;
             // 
             // columnVoc_词性
             // 
+            this.columnVoc_词性.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
             this.columnVoc_词性.HeaderText = "Class";
             this.columnVoc_词性.Items.AddRange(new object[] {
-            "verb",
-            "noun",
             "adj",
             "adv",
+            "conj",
             "idiom",
             "noun",
-            "conj",
-            "suffix",
             "prefix",
             "prep",
-            "pronoun"});
+            "pronoun",
+            "suffix",
+            "verb"});
             this.columnVoc_词性.Name = "columnVoc_词性";
+            this.columnVoc_词性.Sorted = true;
+            this.columnVoc_词性.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // columnVoc_英文
             // 
@@ -176,16 +192,6 @@
             this.columnVoc_英文alt1.HeaderText = "English - Alternative";
             this.columnVoc_英文alt1.Name = "columnVoc_英文alt1";
             this.columnVoc_英文alt1.Width = 114;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(611, 577);
-            this.tabPage1.TabIndex = 2;
-            this.tabPage1.Text = "Text";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // UnitsForm
             // 
