@@ -19,7 +19,6 @@ namespace SG.Learning.DevelopingChinese
             await Task.Run(() => InitializeDataManager());
             await AddDataFilesToTreeAsync(DataSubFolder.Courses, UnitFile.Parse, SearchOption.AllDirectories);
             await AddDataFilesToTreeAsync(DataSubFolder.Learning, FlashcardFile.Parse);
-            treeViewUnits.ExpandAll();
         }
 
         #region Data Manager
@@ -34,7 +33,7 @@ namespace SG.Learning.DevelopingChinese
             where T : class
         {
             var dataFiles = dataManagerComponent.EnumerateDataFiles(subFolder, fileParser, searchOption);
-            treeViewUnits.Nodes["Node" + subFolder].Nodes.AddRange(await Task.Run(() => dataFiles.ToArray()));
+            //treeViewUnits.Nodes["Node" + subFolder].Nodes.AddRange(await Task.Run(() => dataFiles.ToArray()));
         }
 
         #endregion
@@ -68,13 +67,13 @@ namespace SG.Learning.DevelopingChinese
 
         private async Task RenderUnitAsync(UnitFile unitFile)
         {
-            if (DataGridCacheEquals(unitFile))
+            /*if (DataGridCacheEquals(unitFile))
                 return;
-
+            */
             var unit = await unitFile.ParseDataFileAsync();
             var vocs = unit.Vocabulary;
             var vocHeader = unit.Vocabulary.ColumnHeader;
-            var gridColCount = dataGridView1.ColumnCount;
+            /*var gridColCount = dataGridView1.ColumnCount;
             var nameToIdx = new Dictionary<string, IdxPair>(gridColCount);
             var dataIdxToName = new Dictionary<int, string>(gridColCount);
             for (var i = 0; i < gridColCount; i++)
@@ -100,15 +99,16 @@ namespace SG.Learning.DevelopingChinese
                 }
                 dataGridView1.Rows.Add(data);
             }
+             */
         }
-
+        /*
         private bool DataGridCacheEquals<T>(T unitFile)
             where T : class
         {
             var isSame = unitFile.Equals(dataGridView1.Tag as T);
             dataGridView1.Tag = unitFile;
             return isSame;
-        }
+        }*/
 
         private void dataGridView1_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
