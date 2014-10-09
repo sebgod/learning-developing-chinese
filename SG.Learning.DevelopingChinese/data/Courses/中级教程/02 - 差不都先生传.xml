@@ -9,7 +9,7 @@
   <Author>Sebastian Godelet</Author>
   <LastAuthor>Sebastian Godelet</LastAuthor>
   <Created>2014-09-17T06:42:20Z</Created>
-  <LastSaved>2014-10-09T06:48:25Z</LastSaved>
+  <LastSaved>2014-10-09T07:10:43Z</LastSaved>
   <Version>14.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -52,199 +52,248 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">差不多</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">cha4buduo1</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">差不多</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">cha4buduo1</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">传</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">zhuan4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">代表</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">dai4biao3</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">相貌</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">xiang4mao4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">分明</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">fen1ming2</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">气味</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">qi4wei4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">口味</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">kou3wei4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">讲究</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">jiang3jiu</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">讲究</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">jiang3jiu</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">记性</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">ji4xing</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">凡</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">fan2</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">何必</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">he2bi4</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">惊喜</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">jing1xi4</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">既A又B</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">grammar</Data></Cell>
+    <Cell><Data ss:Type="String">ji4 A you4 B</Data></Cell>
+    <Cell><Data ss:Type="String">grammar</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">算</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">suan4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">笑嘻嘻</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">xiao4xi1xi1</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">赔不是</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">pei2 bu2shi</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">撇</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">pie3</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">搭</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">da1</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">从容</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">cong2rong2</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">迟 </Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">chi2</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">白</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">bai2</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">瞪</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">deng4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">部门</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">bu4men2</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">未免</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">wei4mian3</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">一面A一面B</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">grammar</Data></Cell>
+    <Cell><Data ss:Type="String">yi2mian4 A yi2mian4 B</Data></Cell>
+    <Cell><Data ss:Type="String">grammar</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">一时</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">yi4shi2</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">寻</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">xun2</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">焦急</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">jiao1ji2</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">好在</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">hao3zai4</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">医</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">yi1</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">治</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">zhi4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">气</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">qi4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">断断续续</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">duan4duan4xu4xu4</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">称赞</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">cheng1zan4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">算账</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">suan4zhang4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">计较</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">ji4jiao4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">德行</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">de2xing2</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">法号</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">fa3hao4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">名声</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">ming2sheng1</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">无数</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">wu2shu4</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">于是</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">conj</Data></Cell>
+    <Cell><Data ss:Type="String">yu2shi4</Data></Cell>
+    <Cell><Data ss:Type="String">conj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">从此</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">cong2ci3</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">懒</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">lan3</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">西安</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Xi1'an1</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">山西</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Shan1xi1</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">陕西</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Shan3xi1</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">圆通大师</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Yuan2tong1 Da4shi1</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -255,10 +304,12 @@
    </PageSetup>
    <Unsynced/>
    <Selected/>
+   <TopRowVisible>22</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>49</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

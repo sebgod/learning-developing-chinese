@@ -96,6 +96,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\Courses\中级教程\02 - 差不都先生传.xml" />
     <Content Include="data\Learning\flash.xml" />
     <Content Include="data\Courses\中级教程\01 - 我的希望工程.xml" />
   </ItemGroup>
