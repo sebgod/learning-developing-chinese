@@ -35,12 +35,12 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="vocabulary">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="63" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="67" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Column ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Width="120"/>
    <Column ss:Width="129.75"/>
    <Column ss:Width="45"/>
-   <Column ss:Width="138"/>
+   <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">中文</Data></Cell>
@@ -432,6 +432,30 @@
     <Cell><Data ss:Type="String">setback</Data></Cell>
     <Cell><Data ss:Type="String">reverse</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中国青少年发展基金会</Data></Cell>
+    <Cell><Data ss:Type="String">Zhong1guo2 Qing1shao4nian2 Fa1zhan3 Ji1jin1hui4</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">China Youth Development Foundation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">井冈山</Data></Cell>
+    <Cell><Data ss:Type="String">Jing3gang1 Shan1</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Jinggang Mountain, a montain located in the remote border region between Jiangxi and Hunan provinces</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">黄志强</Data></Cell>
+    <Cell><Data ss:Type="String">Huang2 Zhi4qiang2</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">name of a person</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">江西</Data></Cell>
+    <Cell><Data ss:Type="String">Jiang1xi1</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Jiangxi province, a southern province in China</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -441,12 +465,12 @@
    </PageSetup>
    <Unsynced/>
    <Selected/>
-   <TopRowVisible>34</TopRowVisible>
+   <TopRowVisible>40</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>36</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>65</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -503,55 +527,6 @@
      <Number>3</Number>
      <ActiveRow>11</ActiveRow>
      <ActiveCol>1</ActiveCol>
-    </Pane>
-   </Panes>
-   <ProtectObjects>False</ProtectObjects>
-   <ProtectScenarios>False</ProtectScenarios>
-  </WorksheetOptions>
- </Worksheet>
- <Worksheet ss:Name="proper">
-  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Column ss:Width="120"/>
-   <Column ss:Width="246.75"/>
-   <Column ss:Width="508.5"/>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">中文</Data></Cell>
-    <Cell><Data ss:Type="String">拼音</Data></Cell>
-    <Cell><Data ss:Type="String">英文</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">中国青少年发展基金会</Data></Cell>
-    <Cell><Data ss:Type="String">Zhong1guo2 Qing1shao4nian2 Fa1zhan3 Ji1jin1hui4</Data></Cell>
-    <Cell><Data ss:Type="String">China Youth Development Foundation</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">井冈山</Data></Cell>
-    <Cell><Data ss:Type="String">Jing3gang1 Shan1</Data></Cell>
-    <Cell><Data ss:Type="String">Jinggang Mountain, a montain located in the remote border region between Jiangxi and Hunan provinces</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">黄志强</Data></Cell>
-    <Cell><Data ss:Type="String">Huang2 Zhi4qiang2</Data></Cell>
-    <Cell><Data ss:Type="String">name of a person</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">江西</Data></Cell>
-    <Cell><Data ss:Type="String">Jiang1xi1</Data></Cell>
-    <Cell><Data ss:Type="String">Jiangxi province, a southern province in China</Data></Cell>
-   </Row>
-  </Table>
-  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
-   <PageSetup>
-    <Header x:Margin="0.3"/>
-    <Footer x:Margin="0.3"/>
-    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
-   </PageSetup>
-   <Unsynced/>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>5</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

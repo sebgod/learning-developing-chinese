@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sebastian Godelet</Author>
+  <LastAuthor>Sebastian Godelet</LastAuthor>
+  <Created>2014-09-17T06:42:20Z</Created>
+  <LastSaved>2014-10-09T06:48:25Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <TargetScreenSize>1280x1024</TargetScreenSize>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10560</WindowHeight>
+  <WindowWidth>22035</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="vocabulary">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="50" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="120"/>
+   <Column ss:Width="129.75"/>
+   <Column ss:Width="46.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+    <Cell><Data ss:Type="String">词性</Data></Cell>
+    <Cell><Data ss:Type="String">英文</Data></Cell>
+    <Cell><Data ss:Type="String">英文and1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">差不多</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">差不多</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">传</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">代表</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">相貌</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">分明</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">气味</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">口味</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">讲究</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">讲究</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">记性</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">凡</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">何必</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">惊喜</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">既A又B</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">grammar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">算</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">笑嘻嘻</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">赔不是</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">撇</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">搭</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">从容</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">迟 </Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">白</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">瞪</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">部门</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">未免</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">一面A一面B</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">grammar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">一时</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">寻</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">焦急</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">好在</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">医</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">治</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">气</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">断断续续</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">称赞</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">算账</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">计较</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">德行</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">法号</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">名声</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">无数</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">于是</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">conj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">从此</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">懒</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">西安</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">山西</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">陕西</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">圆通大师</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="text">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="516"/>
+   <Column ss:Width="333"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
