@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sebastian Godelet</Author>
+  <LastAuthor>Sebastian Godelet</LastAuthor>
+  <Created>2014-09-17T06:42:20Z</Created>
+  <LastSaved>2014-10-10T09:42:04Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <TargetScreenSize>1280x1024</TargetScreenSize>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10560</WindowHeight>
+  <WindowWidth>22035</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="vocabulary">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="69" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="120"/>
+   <Column ss:Width="129.75"/>
+   <Column ss:Width="45"/>
+   <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+    <Cell><Data ss:Type="String">词性</Data></Cell>
+    <Cell><Data ss:Type="String">英文</Data></Cell>
+    <Cell><Data ss:Type="String">英文and1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">记忆</Data></Cell>
+    <Cell><Data ss:Type="String">ji4yi4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">memory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">者</Data></Cell>
+    <Cell><Data ss:Type="String">zhe3</Data></Cell>
+    <Cell><Data ss:Type="String">suffix</Data></Cell>
+    <Cell><Data ss:Type="String">used after an adjective, verb, adjectival phrase or verbal phrase to indicate that a person or thing possesses that quality or performs that action.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">赛</Data></Cell>
+    <Cell><Data ss:Type="String">sai1</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to stuff</Data></Cell>
+    <Cell><Data ss:Type="String">to squeeze in</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">贼</Data></Cell>
+    <Cell><Data ss:Type="String">zei2</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">thief</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">明白</Data></Cell>
+    <Cell><Data ss:Type="String">ming2bai</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to understand</Data></Cell>
+    <Cell><Data ss:Type="String">to know</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">从来</Data></Cell>
+    <Cell><Data ss:Type="String">cong2lai2</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">all along</Data></Cell>
+    <Cell><Data ss:Type="String">ever</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">场</Data></Cell>
+    <Cell><Data ss:Type="String">chang2</Data></Cell>
+    <Cell><Data ss:Type="String">measure</Data></Cell>
+    <Cell><Data ss:Type="String">a measure word (sometimes: chǎng)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">正当</Data></Cell>
+    <Cell><Data ss:Type="String">zheng4 dang1</Data></Cell>
+    <Cell><Data ss:Type="String">conj</Data></Cell>
+    <Cell><Data ss:Type="String">just when</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">即将</Data></Cell>
+    <Cell><Data ss:Type="String">ji2jiang1</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">be on the point of</Data></Cell>
+    <Cell><Data ss:Type="String">be about to</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">削</Data></Cell>
+    <Cell><Data ss:Type="String">xiao1</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to pare with a knife</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">怨</Data></Cell>
+    <Cell><Data ss:Type="String">yuan4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to blame</Data></Cell>
+    <Cell><Data ss:Type="String">to complain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">感情</Data></Cell>
+    <Cell><Data ss:Type="String">gan3qing2</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">love</Data></Cell>
+    <Cell><Data ss:Type="String">affection</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">勉强</Data></Cell>
+    <Cell><Data ss:Type="String">mian3qiang3</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to force sb. To do sth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">勉强</Data></Cell>
+    <Cell><Data ss:Type="String">mian3qiang3</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">reluctant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">门</Data></Cell>
+    <Cell><Data ss:Type="String">men2</Data></Cell>
+    <Cell><Data ss:Type="String">measure</Data></Cell>
+    <Cell><Data ss:Type="String">a measure word for subjects of study</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">清晰</Data></Cell>
+    <Cell><Data ss:Type="String">qing1xi1</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">clear</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">关心</Data></Cell>
+    <Cell><Data ss:Type="String">guan1 xin1</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to care for</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">恋爱</Data></Cell>
+    <Cell><Data ss:Type="String">lian4'ai4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to be in love</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">恋爱</Data></Cell>
+    <Cell><Data ss:Type="String">lian4'ai4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">love</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">结婚</Data></Cell>
+    <Cell><Data ss:Type="String">jie2hun1</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to marry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">仍然</Data></Cell>
+    <Cell><Data ss:Type="String">reng2ran2</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">still</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">书信</Data></Cell>
+    <Cell><Data ss:Type="String">shu1xin4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">letter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">接触</Data></Cell>
+    <Cell><Data ss:Type="String">jie1chu4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to come into contact with</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">始终</Data></Cell>
+    <Cell><Data ss:Type="String">shi3zhong1</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">all along</Data></Cell>
+    <Cell><Data ss:Type="String">from beginning to end</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">合</Data></Cell>
+    <Cell><Data ss:Type="String">he2</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to suit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">心意</Data></Cell>
+    <Cell><Data ss:Type="String">xin1yi4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">liking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">研究生</Data></Cell>
+    <Cell><Data ss:Type="String">yan2jiu1sheng1</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">postgraduate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">失去</Data></Cell>
+    <Cell><Data ss:Type="String">shi1qu4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to lose</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">双</Data></Cell>
+    <Cell><Data ss:Type="String">shuang1</Data></Cell>
+    <Cell><Data ss:Type="String">measure</Data></Cell>
+    <Cell><Data ss:Type="String">(a measure word) pair</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">口</Data></Cell>
+    <Cell><Data ss:Type="String">kou3</Data></Cell>
+    <Cell><Data ss:Type="String">measure</Data></Cell>
+    <Cell><Data ss:Type="String">a measure word for something with a mouth, etc</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">口</Data></Cell>
+    <Cell><Data ss:Type="String">kou3</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">mouth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">牙齿</Data></Cell>
+    <Cell><Data ss:Type="String">ya2chi3</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">tooth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">时髦</Data></Cell>
+    <Cell><Data ss:Type="String">shi2mao2</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">fashionable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">得体</Data></Cell>
+    <Cell><Data ss:Type="String">de2ti3</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">appropriate (e.g. dress)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">含</Data></Cell>
+    <Cell><Data ss:Type="String">han2</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to have</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">to wear (clothes)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">显得</Data></Cell>
+    <Cell><Data ss:Type="String">xian3de</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to look</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">to appear</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">老乡</Data></Cell>
+    <Cell><Data ss:Type="String">lao3xiang1</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">fellow-townsman</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">接口</Data></Cell>
+    <Cell><Data ss:Type="String">jie4kou3</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">excuse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">持续</Data></Cell>
+    <Cell><Data ss:Type="String">chi2xu4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to continue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">故意</Data></Cell>
+    <Cell><Data ss:Type="String">gu4yi4</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">on purpose</Data></Cell>
+    <Cell><Data ss:Type="String">intentionally</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">无所谓</Data></Cell>
+    <Cell><Data ss:Type="String">wu2suo3wei4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to be indifferent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">悲剧</Data></Cell>
+    <Cell><Data ss:Type="String">bei1ju4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">tragedy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">表白</Data></Cell>
+    <Cell><Data ss:Type="String">biao3bai2</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to express</Data></Cell>
+    <Cell><Data ss:Type="String">to speak out</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">遗憾</Data></Cell>
+    <Cell><Data ss:Type="String">yi2han4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">pity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">遗憾</Data></Cell>
+    <Cell><Data ss:Type="String">yi2han4</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">regretful</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">遗憾</Data></Cell>
+    <Cell><Data ss:Type="String">yi2han4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to regret</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">一下子</Data></Cell>
+    <Cell><Data ss:Type="String">yi2xia4zi</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">all of a sudden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">座</Data></Cell>
+    <Cell><Data ss:Type="String">zuo4</Data></Cell>
+    <Cell><Data ss:Type="String">measure</Data></Cell>
+    <Cell><Data ss:Type="String">a measure word for buildings, mountains, etc.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">激动</Data></Cell>
+    <Cell><Data ss:Type="String">ji1dong4</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">excited</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">痛苦</Data></Cell>
+    <Cell><Data ss:Type="String">tong4ku3</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">painful</Data></Cell>
+    <Cell><Data ss:Type="String">agonized</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">解脱</Data></Cell>
+    <Cell><Data ss:Type="String">jie3tuo1</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to extricate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">付</Data></Cell>
+    <Cell><Data ss:Type="String">fu2</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to bend over</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">膝盖</Data></Cell>
+    <Cell><Data ss:Type="String">xi1gai4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">knee</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">安慰</Data></Cell>
+    <Cell><Data ss:Type="String">an1wei4</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to comfort</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">安慰</Data></Cell>
+    <Cell><Data ss:Type="String">an1wei4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">comfort</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">竟</Data></Cell>
+    <Cell><Data ss:Type="String">jing4</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">unexpectedly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">终于</Data></Cell>
+    <Cell><Data ss:Type="String">zhong1yu2</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">finally</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">偶像</Data></Cell>
+    <Cell><Data ss:Type="String">ou3xiang4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">image</Data></Cell>
+    <Cell><Data ss:Type="String">idol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">股</Data></Cell>
+    <Cell><Data ss:Type="String">gu3</Data></Cell>
+    <Cell><Data ss:Type="String">measure</Data></Cell>
+    <Cell><Data ss:Type="String">a measure word for strength, smell, or a long, narrow thing, etc.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">平行</Data></Cell>
+    <Cell><Data ss:Type="String">ping2xing2</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">paralleled</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">所谓</Data></Cell>
+    <Cell><Data ss:Type="String">suo3wei4</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">so-called</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">缘分</Data></Cell>
+    <Cell><Data ss:Type="String">yuan2fen4</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">lot or luck by which people are brought together</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">顿时</Data></Cell>
+    <Cell><Data ss:Type="String">dun4shi2</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">immediately (very quickly)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">珍惜</Data></Cell>
+    <Cell><Data ss:Type="String">zhen1xi1</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to treasure</Data></Cell>
+    <Cell><Data ss:Type="String">to cherish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">莫</Data></Cell>
+    <Cell><Data ss:Type="String">mo4</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">not</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">湖南</Data></Cell>
+    <Cell><Data ss:Type="String">Hu2nan2</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Hunan Province</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">江苏</Data></Cell>
+    <Cell><Data ss:Type="String">Jiang1su1</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Jiangsu Province</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">苏州</Data></Cell>
+    <Cell><Data ss:Type="String">Su1zhou1</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Suzhou, Jiangsu</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>44</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>66</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="text">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="516"/>
+   <Column ss:Width="333"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
