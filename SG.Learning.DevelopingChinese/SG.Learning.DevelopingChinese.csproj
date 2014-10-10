@@ -96,10 +96,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\Courses\中级教程\02 - 差不都先生传.xml" />
-    <Content Include="data\Courses\中级教程\03 - 我记性中的两个女孩子.xml" />
+    <Content Include="data\Courses\中级综合\02 - 差不都先生传.xml" />
+    <Content Include="data\Courses\中级综合\03 - 我记性中的两个女孩子.xml" />
     <Content Include="data\Learning\flash.xml" />
-    <Content Include="data\Courses\中级教程\01 - 我的希望工程.xml" />
+    <Content Include="data\Courses\中级综合\01 - 我的希望工程.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
