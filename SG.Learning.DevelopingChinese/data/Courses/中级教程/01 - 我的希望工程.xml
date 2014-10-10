@@ -39,7 +39,7 @@
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="120"/>
    <Column ss:Width="129.75"/>
-   <Column ss:Width="45"/>
+   <Column ss:Width="46.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
    <Row ss:AutoFitHeight="0">
@@ -354,7 +354,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">对A来说</Data></Cell>
     <Cell><Data ss:Type="String">dui4 A lai2shuo1</Data></Cell>
-    <Cell><Data ss:Type="String">idiom</Data></Cell>
+    <Cell><Data ss:Type="String">grammar</Data></Cell>
     <Cell><Data ss:Type="String">indicating the person or thing to whom or which a statement pertains</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -465,12 +465,12 @@
    </PageSetup>
    <Unsynced/>
    <Selected/>
-   <TopRowVisible>40</TopRowVisible>
+   <TopRowVisible>38</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>65</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>51</ActiveRow>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
