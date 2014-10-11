@@ -163,6 +163,7 @@
             "conj",
             "grammar",
             "idiom",
+            "measure",
             "noun",
             "prefix",
             "prep",
