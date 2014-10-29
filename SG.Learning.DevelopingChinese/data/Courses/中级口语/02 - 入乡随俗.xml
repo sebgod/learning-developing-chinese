@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sebastian Godelet</Author>
+  <LastAuthor>Sebastian Godelet</LastAuthor>
+  <Created>2014-09-17T06:42:20Z</Created>
+  <LastSaved>2014-10-16T00:04:29Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <TargetScreenSize>1280x1024</TargetScreenSize>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10560</WindowHeight>
+  <WindowWidth>22035</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="vocabulary">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="30" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="50.25"/>
+   <Column ss:Width="71.25"/>
+   <Column ss:Width="60"/>
+   <Column ss:Width="181.5"/>
+   <Column ss:Width="85.5"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="50.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+    <Cell><Data ss:Type="String">词性</Data></Cell>
+    <Cell><Data ss:Type="String">英文</Data></Cell>
+    <Cell><Data ss:Type="String">英文and1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
+    <Cell><Data ss:Type="String">繁体字</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">称呼</Data></Cell>
+    <Cell><Data ss:Type="String">chēnghu</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to call</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">稱呼</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">称呼</Data></Cell>
+    <Cell><Data ss:Type="String">chēnghu</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">form of address</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">稱呼</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">叔叔</Data></Cell>
+    <Cell><Data ss:Type="String">shūshu</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">uncle</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">叔叔</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">丢脸</Data></Cell>
+    <Cell><Data ss:Type="String">diūliǎn</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">disgraceful</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">丟臉</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">出错</Data></Cell>
+    <Cell><Data ss:Type="String">chūcuò</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to make a mistake</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">出錯</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">售票员</Data></Cell>
+    <Cell><Data ss:Type="String">shòupiàoyuán</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">ticket seller</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">售票員</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">出租车</Data></Cell>
+    <Cell><Data ss:Type="String">chūzūché</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">taxi</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">計程車</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">主持人</Data></Cell>
+    <Cell><Data ss:Type="String">zhǔchírén</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">anchorperson</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">主持人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">不见得</Data></Cell>
+    <Cell><Data ss:Type="String">bújiànde</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">not likely</Data></Cell>
+    <Cell><Data ss:Type="String">may not</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">不見得</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">官职</Data></Cell>
+    <Cell><Data ss:Type="String">guānzhí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">official position</Data></Cell>
+    <Cell><Data ss:Type="String">government post</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">官職</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">难怪</Data></Cell>
+    <Cell><Data ss:Type="String">nánguài</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">no wonder</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">難怪</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">厂长</Data></Cell>
+    <Cell><Data ss:Type="String">chǎngzhǎng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">factorry director</Data></Cell>
+    <Cell><Data ss:Type="String">factory manager</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">廠長</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">总</Data></Cell>
+    <Cell><Data ss:Type="String">zǒng</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">general</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">總</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">打交道</Data></Cell>
+    <Cell><Data ss:Type="String">dǎ jiāodao</Data></Cell>
+    <Cell><Data ss:Type="String">idiom</Data></Cell>
+    <Cell><Data ss:Type="String">to have dealings with</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">打交道</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">服务员</Data></Cell>
+    <Cell><Data ss:Type="String">fúwùyuán</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">attendant</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">服務員</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">朴动民</Data></Cell>
+    <Cell><Data ss:Type="String">Piáo Dōngmín</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">name of a Korean boy</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">樸動民</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">李</Data></Cell>
+    <Cell><Data ss:Type="String">Lǐ</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">surname Li</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">李</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">王</Data></Cell>
+    <Cell><Data ss:Type="String">Wáng</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">surname Wang</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">王</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">官儿</Data></Cell>
+    <Cell><Data ss:Type="String">guānr</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">官兒</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">嗯</Data></Cell>
+    <Cell><Data ss:Type="String">ǹg</Data></Cell>
+    <Cell><Data ss:Type="String">interjection</Data></Cell>
+    <Cell><Data ss:Type="String">agreement</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">嗯</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">招儿</Data></Cell>
+    <Cell><Data ss:Type="String">zhāor</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">method</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">招兒</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">开头</Data></Cell>
+    <Cell><Data ss:Type="String">kaītóu</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">beginning</Data></Cell>
+    <Cell><Data ss:Type="String">start</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">開頭</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">购物</Data></Cell>
+    <Cell><Data ss:Type="String">gòuwù</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to go shopping</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">購物</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">哎</Data></Cell>
+    <Cell><Data ss:Type="String">ài</Data></Cell>
+    <Cell><Data ss:Type="String">interjection</Data></Cell>
+    <Cell><Data ss:Type="String">hey</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">哎</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">入乡随俗</Data></Cell>
+    <Cell><Data ss:Type="String">rùxiāngsuísú</Data></Cell>
+    <Cell><Data ss:Type="String">idiom</Data></Cell>
+    <Cell><Data ss:Type="String">When in Rome, do as the Romans do.</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">入鄉隨俗</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">大爷</Data></Cell>
+    <Cell><Data ss:Type="String">dàye</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">(a term of respect) uncle</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">大爺</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">大妈</Data></Cell>
+    <Cell><Data ss:Type="String">dàmā</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">(a term of respect) aunt</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">大媽</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">亲热</Data></Cell>
+    <Cell><Data ss:Type="String">qīnrè</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">affectionate</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">親熱</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">熟悉</Data></Cell>
+    <Cell><Data ss:Type="String">shúxī</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to be familiar with</Data></Cell>
+    <Cell><Data ss:Type="String">to know well</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">熟悉</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="text">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="516"/>
+   <Column ss:Width="333"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

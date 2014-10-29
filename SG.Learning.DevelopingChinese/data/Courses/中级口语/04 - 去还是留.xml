@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sebastian Godelet</Author>
+  <LastAuthor>Sebastian Godelet</LastAuthor>
+  <Created>2014-09-17T06:42:20Z</Created>
+  <LastSaved>2014-09-17T13:22:55Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <TargetScreenSize>1280x1024</TargetScreenSize>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10560</WindowHeight>
+  <WindowWidth>22035</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="vocabulary">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="33" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="50.25"/>
+   <Column ss:Width="94.5"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="111"/>
+   <Column ss:Width="81.75"/>
+   <Column ss:Width="134.25"/>
+   <Column ss:Width="77.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+    <Cell><Data ss:Type="String">词性</Data></Cell>
+    <Cell><Data ss:Type="String">英文</Data></Cell>
+    <Cell><Data ss:Type="String">英文and1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">父母</Data></Cell>
+    <Cell><Data ss:Type="String">fùmǔ</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">parent(s)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">当初</Data></Cell>
+    <Cell><Data ss:Type="String">dāngchū</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">at the begginning</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">originally</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">白白</Data></Cell>
+    <Cell><Data ss:Type="String">báibái</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">in vain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">定居</Data></Cell>
+    <Cell><Data ss:Type="String">dìngjū</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">to settle (down) in</Data></Cell>
+    <Cell><Data ss:Type="String">to live in</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">归属</Data></Cell>
+    <Cell><Data ss:Type="String">guīshǔ</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">to belong to</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">家人</Data></Cell>
+    <Cell><Data ss:Type="String">jiārén</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">family member</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">通通</Data></Cell>
+    <Cell><Data ss:Type="String">tōngtōng</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">all</Data></Cell>
+    <Cell><Data ss:Type="String">completely</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">方式</Data></Cell>
+    <Cell><Data ss:Type="String">fāngshì</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">style</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">估计</Data></Cell>
+    <Cell><Data ss:Type="String">gūji</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to estimate</Data></Cell>
+    <Cell><Data ss:Type="String">to appraise</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">不定</Data></Cell>
+    <Cell><Data ss:Type="String">bùdìng</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">hard to say/predict</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">indefinite</Data></Cell>
+    <Cell><Data ss:Type="String">inderterminate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">注意</Data></Cell>
+    <Cell><Data ss:Type="String">zhùyì</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to pay attention to</Data></Cell>
+    <Cell><Data ss:Type="String">to take notice of</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">村</Data></Cell>
+    <Cell><Data ss:Type="String">cūn</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">village</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">之</Data></Cell>
+    <Cell><Data ss:Type="String">zhī</Data></Cell>
+    <Cell><Data ss:Type="String">particle</Data></Cell>
+    <Cell><Data ss:Type="String">of</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">恋</Data></Cell>
+    <Cell><Data ss:Type="String">liàn</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to long for</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">to be unwilling to part with</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">恋</Data></Cell>
+    <Cell><Data ss:Type="String">liàn</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">love</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">青</Data></Cell>
+    <Cell><Data ss:Type="String">qīng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">blue or green</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">山冈</Data></Cell>
+    <Cell><Data ss:Type="String">shān'gāng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">low hill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">依偎</Data></Cell>
+    <Cell><Data ss:Type="String">yīwēi</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to lean close to</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">村庄</Data></Cell>
+    <Cell><Data ss:Type="String">cūnzhuāng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">village</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">天空</Data></Cell>
+    <Cell><Data ss:Type="String">tiānkōng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">sky</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">怎</Data></Cell>
+    <Cell><Data ss:Type="String">zěn</Data></Cell>
+    <Cell><Data ss:Type="String">pronoun</Data></Cell>
+    <Cell><Data ss:Type="String">how</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">叫</Data></Cell>
+    <Cell><Data ss:Type="String">jiào</Data></Cell>
+    <Cell><Data ss:Type="String">prep</Data></Cell>
+    <Cell><Data ss:Type="String">make (cause)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">向往</Data></Cell>
+    <Cell><Data ss:Type="String">xiàngwǎng</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to look forward to</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">向往</Data></Cell>
+    <Cell><Data ss:Type="String">xiàngwǎng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">longing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">是否</Data></Cell>
+    <Cell><Data ss:Type="String">shìfǒu</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">if</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">无恙</Data></Cell>
+    <Cell><Data ss:Type="String">wúyàng</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to be well</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">别来无恙</Data></Cell>
+    <Cell><Data ss:Type="String">bié lái wúyàng</Data></Cell>
+    <Cell><Data ss:Type="String">idiom</Data></Cell>
+    <Cell><Data ss:Type="String">hope that you are well</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">时常</Data></Cell>
+    <Cell><Data ss:Type="String">shícháng</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">often</Data></Cell>
+    <Cell><Data ss:Type="String">frequently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">风光</Data></Cell>
+    <Cell><Data ss:Type="String">fēngguāng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">scene (view)</Data></Cell>
+    <Cell><Data ss:Type="String">sight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">梦想</Data></Cell>
+    <Cell><Data ss:Type="String">mèngxiāng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">dream</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">难忘</Data></Cell>
+    <Cell><Data ss:Type="String">nánwàng</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">unforgettable</Data></Cell>
+    <Cell><Data ss:Type="String">memorable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">歌唱</Data></Cell>
+    <Cell><Data ss:Type="String">gěchàng</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to sing</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>32</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+     <RangeSelection>R2C2:R33C2</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="text">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="516"/>
+   <Column ss:Width="333"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

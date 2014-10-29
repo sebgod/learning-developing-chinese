@@ -38,10 +38,11 @@
   <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="67" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="120"/>
-   <Column ss:Width="129.75"/>
+   <Column ss:Width="246.75"/>
    <Column ss:Width="46.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="156"/>
    <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:Width="45"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">中文</Data></Cell>
     <Cell><Data ss:Type="String">拼音</Data></Cell>
@@ -465,12 +466,12 @@
    </PageSetup>
    <Unsynced/>
    <Selected/>
-   <TopRowVisible>38</TopRowVisible>
+   <LeftColumnVisible>2</LeftColumnVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>51</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>8</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

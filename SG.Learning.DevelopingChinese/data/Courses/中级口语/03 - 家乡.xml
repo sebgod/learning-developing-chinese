@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sebastian Godelet</Author>
+  <LastAuthor>Sebastian Godelet</LastAuthor>
+  <Created>2014-09-17T06:42:20Z</Created>
+  <LastSaved>2014-10-12T03:33:33Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <TargetScreenSize>1280x1024</TargetScreenSize>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10560</WindowHeight>
+  <WindowWidth>22035</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="vocabulary">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="50.25"/>
+   <Column ss:Width="92.25"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="212.25"/>
+   <Column ss:Width="74.25"/>
+   <Column ss:Width="45"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+    <Cell><Data ss:Type="String">词性</Data></Cell>
+    <Cell><Data ss:Type="String">英文</Data></Cell>
+    <Cell><Data ss:Type="String">英文and1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">谈论</Data></Cell>
+    <Cell><Data ss:Type="String">tánlùn</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to talk about</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">各自</Data></Cell>
+    <Cell><Data ss:Type="String">gèzì</Data></Cell>
+    <Cell><Data ss:Type="String">pronoun</Data></Cell>
+    <Cell><Data ss:Type="String">each (1:1)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">部</Data></Cell>
+    <Cell><Data ss:Type="String">bù</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">part</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">算是</Data></Cell>
+    <Cell><Data ss:Type="String">suànshì</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">be considered as</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中等</Data></Cell>
+    <Cell><Data ss:Type="String">zhōngděng</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">middle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">出</Data></Cell>
+    <Cell><Data ss:Type="String">chū</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to emerge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">美女</Data></Cell>
+    <Cell><Data ss:Type="String">měinǚ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">beauty (girl)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">湿润</Data></Cell>
+    <Cell><Data ss:Type="String">shīrùn</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">moist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">优越</Data></Cell>
+    <Cell><Data ss:Type="String">yōuyuè</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">superior</Data></Cell>
+    <Cell><Data ss:Type="String">advantageous</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">人文</Data></Cell>
+    <Cell><Data ss:Type="String">rénwén</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">humanity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">名胜古迹</Data></Cell>
+    <Cell><Data ss:Type="String">míngshèng gǔjì</Data></Cell>
+    <Cell><Data ss:Type="String">idiom</Data></Cell>
+    <Cell><Data ss:Type="String">places of historic interest and scenic beauty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">也罢</Data></Cell>
+    <Cell><Data ss:Type="String">yěbà</Data></Cell>
+    <Cell><Data ss:Type="String">particle</Data></Cell>
+    <Cell><Data ss:Type="String">whether A or B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">小巷</Data></Cell>
+    <Cell><Data ss:Type="String">xiǎoxiàng</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">alley</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">来历</Data></Cell>
+    <Cell><Data ss:Type="String">laílì</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">origin</Data></Cell>
+    <Cell><Data ss:Type="String">source</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">适宜</Data></Cell>
+    <Cell><Data ss:Type="String">shìyí</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">fit</Data></Cell>
+    <Cell><Data ss:Type="String">suitable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">居住</Data></Cell>
+    <Cell><Data ss:Type="String">jūzhù</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to live (dwell)</Data></Cell>
+    <Cell><Data ss:Type="String">to reside</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">温暖</Data></Cell>
+    <Cell><Data ss:Type="String">wēnnuǎn</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">warm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">小林</Data></Cell>
+    <Cell><Data ss:Type="String">Xiǎo Lín</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">name of a Chinese boy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">扬州</Data></Cell>
+    <Cell><Data ss:Type="String">Yángzhōu</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Yangzhou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">长江</Data></Cell>
+    <Cell><Data ss:Type="String">Cháng Jiāng</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">the Changjiang River</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">海滨</Data></Cell>
+    <Cell><Data ss:Type="String">haǐbīn</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">seashore</Data></Cell>
+    <Cell><Data ss:Type="String">seaside</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">位于</Data></Cell>
+    <Cell><Data ss:Type="String">wèiyú</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to be located at</Data></Cell>
+    <Cell><Data ss:Type="String">to lie (place)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">沙滩</Data></Cell>
+    <Cell><Data ss:Type="String">shātān</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">sandbeach</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">观光</Data></Cell>
+    <Cell><Data ss:Type="String">guāngguāng</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">to go sightseeing</Data></Cell>
+    <Cell><Data ss:Type="String">to go for a tour</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">进出口</Data></Cell>
+    <Cell><Data ss:Type="String">jìnchūkǒu</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">imports and exports</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">韩国</Data></Cell>
+    <Cell><Data ss:Type="String">Hánguó</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Korea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">釜山</Data></Cell>
+    <Cell><Data ss:Type="String">Fǔshān</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Busan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">首尔</Data></Cell>
+    <Cell><Data ss:Type="String">Shǒu'ěr</Data></Cell>
+    <Cell><Data ss:Type="String">proper</Data></Cell>
+    <Cell><Data ss:Type="String">Seoul</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="text">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="516"/>
+   <Column ss:Width="333"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

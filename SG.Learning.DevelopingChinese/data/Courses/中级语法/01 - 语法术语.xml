@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sebastian Godelet</Author>
+  <LastAuthor>Sebastian Godelet</LastAuthor>
+  <Created>2014-09-17T06:42:20Z</Created>
+  <LastSaved>2014-09-17T13:22:55Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <TargetScreenSize>1280x1024</TargetScreenSize>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10560</WindowHeight>
+  <WindowWidth>22035</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="vocabulary">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="61.5"/>
+   <Column ss:Width="118.5"/>
+   <Column ss:Width="29.25"/>
+   <Column ss:Width="93"/>
+   <Column ss:Width="50.25"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="60"/>
+   <Column ss:Width="45"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+    <Cell><Data ss:Type="String">词性</Data></Cell>
+    <Cell><Data ss:Type="String">英文</Data></Cell>
+    <Cell><Data ss:Type="String">英文and1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
+    <Cell><Data ss:Type="String">英文alt2</Data></Cell>
+    <Cell><Data ss:Type="String">中文alt1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">名词</Data></Cell>
+    <Cell><Data ss:Type="String">míngcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">n.</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">名</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">代词</Data></Cell>
+    <Cell><Data ss:Type="String">dàicí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">pronoun</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">pron.</Data></Cell>
+    <Cell><Data ss:Type="String">pronoun</Data></Cell>
+    <Cell><Data ss:Type="String">代</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">数词</Data></Cell>
+    <Cell><Data ss:Type="String">shùcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">numeral</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">num.</Data></Cell>
+    <Cell><Data ss:Type="String">numeral</Data></Cell>
+    <Cell><Data ss:Type="String">数</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">量词</Data></Cell>
+    <Cell><Data ss:Type="String">liàngcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">measure word</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">m.</Data></Cell>
+    <Cell><Data ss:Type="String">measure</Data></Cell>
+    <Cell><Data ss:Type="String">量</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">动词</Data></Cell>
+    <Cell><Data ss:Type="String">dòngcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">v.</Data></Cell>
+    <Cell><Data ss:Type="String">verb</Data></Cell>
+    <Cell><Data ss:Type="String">动</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">助动词</Data></Cell>
+    <Cell><Data ss:Type="String">zhùdòngcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">auxiliary</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">aux.</Data></Cell>
+    <Cell><Data ss:Type="String">aux</Data></Cell>
+    <Cell><Data ss:Type="String">助动</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">形容词</Data></Cell>
+    <Cell><Data ss:Type="String">xíngróngcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">adjective</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">adj.</Data></Cell>
+    <Cell><Data ss:Type="String">adj</Data></Cell>
+    <Cell><Data ss:Type="String">形</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">副词</Data></Cell>
+    <Cell><Data ss:Type="String">fùcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">adverb</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">adv.</Data></Cell>
+    <Cell><Data ss:Type="String">adv</Data></Cell>
+    <Cell><Data ss:Type="String">副</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">介词</Data></Cell>
+    <Cell><Data ss:Type="String">jiècí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">preposition</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">prep.</Data></Cell>
+    <Cell><Data ss:Type="String">prep</Data></Cell>
+    <Cell><Data ss:Type="String">介</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">连词</Data></Cell>
+    <Cell><Data ss:Type="String">liáncí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">conjunction</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">conj.</Data></Cell>
+    <Cell><Data ss:Type="String">conj</Data></Cell>
+    <Cell><Data ss:Type="String">连</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">助词</Data></Cell>
+    <Cell><Data ss:Type="String">zhùcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">particle</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">part.</Data></Cell>
+    <Cell><Data ss:Type="String">particle</Data></Cell>
+    <Cell><Data ss:Type="String">助</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">拟声词</Data></Cell>
+    <Cell><Data ss:Type="String">nǐshēngcí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">onomatopœia</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">onom.</Data></Cell>
+    <Cell><Data ss:Type="String">onom</Data></Cell>
+    <Cell><Data ss:Type="String">拟声</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">叹词</Data></Cell>
+    <Cell><Data ss:Type="String">tàncí</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">interjection</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">int.</Data></Cell>
+    <Cell><Data ss:Type="String">interjection</Data></Cell>
+    <Cell><Data ss:Type="String">叹</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">前缀</Data></Cell>
+    <Cell><Data ss:Type="String">qiánzhuì</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">prefix</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">pref.</Data></Cell>
+    <Cell><Data ss:Type="String">prefix</Data></Cell>
+    <Cell><Data ss:Type="String">前</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">后缀</Data></Cell>
+    <Cell><Data ss:Type="String">hòuzhuì</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">suffix</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">suf.</Data></Cell>
+    <Cell><Data ss:Type="String">suffix</Data></Cell>
+    <Cell><Data ss:Type="String">后</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">成语</Data></Cell>
+    <Cell><Data ss:Type="String">chéngyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">idm.</Data></Cell>
+    <Cell><Data ss:Type="String">idiom</Data></Cell>
+    <Cell><Data ss:Type="String">成</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">主语</Data></Cell>
+    <Cell><Data ss:Type="String">zhǔyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">subject</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">S</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">位于</Data></Cell>
+    <Cell><Data ss:Type="String">wèiyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">predicate</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">P</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">宾语</Data></Cell>
+    <Cell><Data ss:Type="String">bīnyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">object</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">onom.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">补语</Data></Cell>
+    <Cell><Data ss:Type="String">bǔyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">complement</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">conj.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">动宾结构</Data></Cell>
+    <Cell><Data ss:Type="String">dòngbīn jiégòu</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">verb-object</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">动补结构</Data></Cell>
+    <Cell><Data ss:Type="String">dòngbǔ jiégòu</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">verb-complement</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">动词短语</Data></Cell>
+    <Cell><Data ss:Type="String">dòngcí duǎnyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">verbal phrase</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VP</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">形容词短语</Data></Cell>
+    <Cell><Data ss:Type="String">xíngróngcí duǎnyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">adjectival phrase</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AP</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">定语</Data></Cell>
+    <Cell><Data ss:Type="String">dìngyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">attribute</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">attr.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">状语</Data></Cell>
+    <Cell><Data ss:Type="String">zhuàngyǔ</Data></Cell>
+    <Cell><Data ss:Type="String">noun</Data></Cell>
+    <Cell><Data ss:Type="String">adverbial modifier</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AM</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="text">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="516"/>
+   <Column ss:Width="333"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">中文</Data></Cell>
+    <Cell><Data ss:Type="String">拼音</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

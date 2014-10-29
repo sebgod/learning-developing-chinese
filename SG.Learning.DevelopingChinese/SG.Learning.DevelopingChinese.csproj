@@ -96,10 +96,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\Courses\中级口语\01 - 次一天.xml" />
+    <Content Include="data\Courses\中级口语\02 - 入乡随俗.xml" />
+    <Content Include="data\Courses\中级口语\03 - 家乡.xml" />
+    <Content Include="data\Courses\中级口语\04 - 去还是留.xml" />
     <Content Include="data\Courses\中级综合\02 - 差不都先生传.xml" />
     <Content Include="data\Courses\中级综合\03 - 我记性中的两个女孩子.xml" />
+    <Content Include="data\Courses\中级综合\04 - 醉人的春夜.xml" />
+    <Content Include="data\Courses\中级语法\01 - 语法术语.xml" />
     <Content Include="data\Learning\flash.xml" />
     <Content Include="data\Courses\中级综合\01 - 我的希望工程.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\Courses\中级听力\" />
+    <Folder Include="data\Courses\中级阅读\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
