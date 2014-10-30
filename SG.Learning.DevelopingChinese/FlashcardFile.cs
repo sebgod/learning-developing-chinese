@@ -1,4 +1,4 @@
-﻿using System.IO;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace SG.Learning.DevelopingChinese
@@ -9,14 +9,22 @@ namespace SG.Learning.DevelopingChinese
         {
         }
 
-        protected override async Task<FlashcardStore> ParseDataFile()
+        protected override async Task<FlashcardStore> ParseDataFileImplAsync()
         {
-            return await Task.Run(() => ParseXmlFileSharedRead(FlashcardStore.LoadFromXml));
+            return await Task.Run(() => ParseFlashcardXmlFile());
+        }
+
+        private FlashcardStore ParseFlashcardXmlFile()
+        {
+            return ParseXmlFileSharedRead(FlashcardStore.LoadFromXml);
         }
 
         public static FlashcardFile Parse(FileInfo plecoFlashcards)
         {
-            return new FlashcardFile(plecoFlashcards);
+            // TODO: This is only a temporary measure
+            var fcf = new FlashcardFile(plecoFlashcards);
+            fcf.ParseFlashcardXmlFile();
+            return fcf;
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -12,7 +12,7 @@ namespace SG.Learning.DevelopingChinese
         {
         }
 
-        protected override async Task<Unit> ParseDataFile()
+        protected override async Task<Unit> ParseDataFileImplAsync()
         {
             return await Task.Run(() => ParseXmlFileSharedRead(Unit.LoadFromXml));
         }

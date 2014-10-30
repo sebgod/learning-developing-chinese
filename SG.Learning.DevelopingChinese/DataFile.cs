@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -28,10 +28,10 @@ namespace SG.Learning.DevelopingChinese
 
         public async Task<T> ParseDataFileAsync()
         {
-            return _parsedFileCache ?? (_parsedFileCache = await ParseDataFile());
+            return _parsedFileCache ?? (_parsedFileCache = await ParseDataFileImplAsync());
         }
 
-        protected abstract Task<T> ParseDataFile();
+        protected abstract Task<T> ParseDataFileImplAsync();
 
         protected T ParseXmlFileSharedRead(Func<XDocument, T> parser)
         {

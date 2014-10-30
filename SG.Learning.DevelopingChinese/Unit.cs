@@ -1,4 +1,4 @@
-﻿using System.Xml.Linq;
+using System.Xml.Linq;
 
 namespace SG.Learning.DevelopingChinese
 {
@@ -19,14 +19,6 @@ namespace SG.Learning.DevelopingChinese
                 {
                     case "vocabulary":
                         _vocabulary = new Vocabulary(worksheet);
-                        break;
-                    
-                    case "text":
-                        // ParseText(worksheet);
-                        break;
-
-                    case "proper":
-                        // ParseProperNouns(worksheet);
                         break;
                 }
             }

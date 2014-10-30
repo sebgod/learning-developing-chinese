@@ -1,4 +1,4 @@
-﻿namespace SG.Learning.DevelopingChinese
+namespace SG.Learning.DevelopingChinese
 {
     partial class UnitsForm
     {
