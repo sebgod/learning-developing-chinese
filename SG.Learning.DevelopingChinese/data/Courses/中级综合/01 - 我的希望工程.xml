@@ -1,3 +1,4 @@
+C:\Users\sebastian\bin\nupy2hypy.exe
 <?xml version="1.0"?>
 <?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
@@ -33,429 +34,421 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="vocabulary">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="67" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="67" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="120"/>
    <Column ss:Width="246.75"/>
    <Column ss:Width="46.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="156"/>
-   <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
-   <Column ss:Width="45"/>
+   <Column ss:AutoFitWidth="0" ss:Width="238.5"/>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">中文</Data></Cell>
-    <Cell><Data ss:Type="String">拼音</Data></Cell>
-    <Cell><Data ss:Type="String">词性</Data></Cell>
-    <Cell><Data ss:Type="String">英文</Data></Cell>
-    <Cell><Data ss:Type="String">英文and1</Data></Cell>
-    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">中文</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">拼音</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">词性</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">英文</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">发布</Data></Cell>
-    <Cell><Data ss:Type="String">fa1bu4</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to release</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">发布</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fābù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to release</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">宣布</Data></Cell>
-    <Cell><Data ss:Type="String">xuan1bu4</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to declare</Data></Cell>
-    <Cell><Data ss:Type="String">to announce</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">宣布</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">xuānbù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to declare; to announce</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">救助</Data></Cell>
-    <Cell><Data ss:Type="String">jiu4zhu4</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to help sb. In difficulty</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">救助</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jiùzhù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to help sb. In difficulty</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">贫困</Data></Cell>
-    <Cell><Data ss:Type="String">pin2kun4</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">poor</Data></Cell>
-    <Cell><Data ss:Type="String">poverty-stricken</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">贫困</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">pínkùn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">poor; poverty-stricken</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">失学</Data></Cell>
-    <Cell><Data ss:Type="String">shi1xue2</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to discontinue one's studies</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">失学</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">shīxué</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to discontinue one's studies</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">成千上万</Data></Cell>
-    <Cell><Data ss:Type="String">cheng2 qian1 shang4 wan4</Data></Cell>
-    <Cell><Data ss:Type="String">idiom</Data></Cell>
-    <Cell><Data ss:Type="String">thousands upon thousands</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">成千上万</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chéng qiān shàng wàn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">thousands upon thousands</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">重新</Data></Cell>
-    <Cell><Data ss:Type="String">chong2xin1</Data></Cell>
-    <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">again</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">重新</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chóngxīn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">again</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">颤抖</Data></Cell>
-    <Cell><Data ss:Type="String">chan4dou3</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to quiver</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">颤抖</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chàndǒu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to quiver</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">拆</Data></Cell>
-    <Cell><Data ss:Type="String">chai1</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to (tear) open</Data></Cell>
-    <Cell><Data ss:Type="String">to take apart</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">拆</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chāi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to (tear) open; to take apart</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">邮包</Data></Cell>
-    <Cell><Data ss:Type="String">you2bao1</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">postal parcel</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">邮包</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yóubāo</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">postal parcel</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">猛</Data></Cell>
-    <Cell><Data ss:Type="String">meng3</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">violent</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">猛</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">měng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">violent</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">葵花子</Data></Cell>
-    <Cell><Data ss:Type="String">kui2hua1zi3</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">sunflower seed</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">葵花子</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">kuíhuāzǐ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sunflower seed</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">洒</Data></Cell>
-    <Cell><Data ss:Type="String">sa3</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to spill</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">洒</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">sǎ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to spill</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">模糊</Data></Cell>
-    <Cell><Data ss:Type="String">mo2hu</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">blurred</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">模糊</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">móhu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">blurred</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">轻易</Data></Cell>
-    <Cell><Data ss:Type="String">qing1yi4</Data></Cell>
-    <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">easily</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">轻易</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">qīngyì</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">easily</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">控制</Data></Cell>
-    <Cell><Data ss:Type="String">kong4zhi4</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to control</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">控制</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">kòngzhì</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to control</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">歪歪扭扭</Data></Cell>
-    <Cell><Data ss:Type="String">wai1wai1niu3niu3</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">crooked</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">歪歪扭扭</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">wāiwāiniǔniǔ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">crooked</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">讲述</Data></Cell>
-    <Cell><Data ss:Type="String">jiang3shu4</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to tell</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">讲述</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jiǎngshù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to tell</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">遥远</Data></Cell>
-    <Cell><Data ss:Type="String">yao2yuan3</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">remote (place)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">遥远</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yáoyuǎn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">remote (place)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">山沟</Data></Cell>
-    <Cell><Data ss:Type="String">shan1gou1</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">mountain area</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">山沟</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">shāngōu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">mountain area</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">恳求</Data></Cell>
-    <Cell><Data ss:Type="String">ken3qiu2</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to implore</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">恳求</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">kěnqiú</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to implore</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">胡同</Data></Cell>
-    <Cell><Data ss:Type="String">hu2tong4</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">lane</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">胡同</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">hútòng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">lane</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">命运</Data></Cell>
-    <Cell><Data ss:Type="String">ming4yun4</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">destiny</Data></Cell>
-    <Cell><Data ss:Type="String">fate</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">命运</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">mìngyùn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">destiny; fae</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">其实</Data></Cell>
-    <Cell><Data ss:Type="String">qi2shi2</Data></Cell>
-    <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">actually</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">其实</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">qíshí</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">actually</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">贫穷</Data></Cell>
-    <Cell><Data ss:Type="String">pin2qiong2</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">poor</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">贫穷</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">pínqióng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">poor</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">而</Data></Cell>
-    <Cell><Data ss:Type="String">er2</Data></Cell>
-    <Cell><Data ss:Type="String">conj</Data></Cell>
-    <Cell><Data ss:Type="String">used to express coordination by connecting cause and effect or aim and means</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">而</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ér</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">used to express coordination by connecting cause and effect or aim and means</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">不得不</Data></Cell>
-    <Cell><Data ss:Type="String">bu4de2bu4</Data></Cell>
-    <Cell><Data ss:Type="String">idiom</Data></Cell>
-    <Cell><Data ss:Type="String">have no choice but to</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">不得不</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">bùdébù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">have no choice but to</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">凭</Data></Cell>
-    <Cell><Data ss:Type="String">ping2</Data></Cell>
-    <Cell><Data ss:Type="String">prep</Data></Cell>
-    <Cell><Data ss:Type="String">base on</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">凭</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">píng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">prep</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">base on</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">拒绝</Data></Cell>
-    <Cell><Data ss:Type="String">ju4jue2</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to refuse</Data></Cell>
-    <Cell><Data ss:Type="String">to reject</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">拒绝</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jùjué</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to refuse; to reject</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">尽管</Data></Cell>
-    <Cell><Data ss:Type="String">jin3guan3</Data></Cell>
-    <Cell><Data ss:Type="String">conj</Data></Cell>
-    <Cell><Data ss:Type="String">though</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">尽管</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jǐnguǎn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">though</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">感激</Data></Cell>
-    <Cell><Data ss:Type="String">gan3ji1</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to be thankful</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">感激</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">gǎnjī</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to be thankful</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">反复</Data></Cell>
-    <Cell><Data ss:Type="String">fan3fu4</Data></Cell>
-    <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">repeatedly</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">反复</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fǎnfù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">repeatedly</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">反复</Data></Cell>
-    <Cell><Data ss:Type="String">fan3fu4</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">reversal</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">反复</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fǎnfù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">reversal</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">压力</Data></Cell>
-    <Cell><Data ss:Type="String">ya1li4</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">pressure</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">压力</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yālì</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">pressure</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">感</Data></Cell>
-    <Cell><Data ss:Type="String">gan3</Data></Cell>
-    <Cell><Data ss:Type="String">suffix</Data></Cell>
-    <Cell><Data ss:Type="String">sense</Data></Cell>
-    <Cell><Data ss:Type="String">feeling</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">感</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">gǎn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">suffix</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sense; feeling</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">任何</Data></Cell>
-    <Cell><Data ss:Type="String">ren2he2</Data></Cell>
-    <Cell><Data ss:Type="String">pronoun</Data></Cell>
-    <Cell><Data ss:Type="String">any</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">任何</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">rénhé</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">pronoun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">any</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">不安</Data></Cell>
-    <Cell><Data ss:Type="String">bu4an1</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">upset</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">不安</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">bùān</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">upset</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">出事</Data></Cell>
-    <Cell><Data ss:Type="String">chu1shi4</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to meet with a mishap</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">出事</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chūshì</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to meet with a mishap</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">传达室</Data></Cell>
-    <Cell><Data ss:Type="String">chuan2da2shi4</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">reception office</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">传达室</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chuándáshì</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">reception office</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">总算</Data></Cell>
-    <Cell><Data ss:Type="String">zong3suan4</Data></Cell>
-    <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">finally</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">总算</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">zǒngsuàn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">finally</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">盼</Data></Cell>
-    <Cell><Data ss:Type="String">pan4</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to long for</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">盼</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">pàn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to long for</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">平均</Data></Cell>
-    <Cell><Data ss:Type="String">ping2jun1</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to average</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">平均</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">píngjūn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to average</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">平均</Data></Cell>
-    <Cell><Data ss:Type="String">ping2jun1</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">average</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">平均</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">píngjūn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">average</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">报答</Data></Cell>
-    <Cell><Data ss:Type="String">bao4da2</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to repay</Data></Cell>
-    <Cell><Data ss:Type="String">to requite</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">报答</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">bàodá</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to repay; to requite</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">红薯</Data></Cell>
-    <Cell><Data ss:Type="String">hong2shu3</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">sweet potato</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">红薯</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">hóngshǔ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sweet potato</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">向日葵</Data></Cell>
-    <Cell><Data ss:Type="String">xiang4ri4kui2</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">sunflower</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">向日葵</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">xiàngrìkuí</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sunflower</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">摸</Data></Cell>
-    <Cell><Data ss:Type="String">mo1</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to touch</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">摸</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">mō</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to touch</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">富裕</Data></Cell>
-    <Cell><Data ss:Type="String">fu4yu4</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">rich</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">富裕</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fùyù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">rich</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">打工</Data></Cell>
-    <Cell><Data ss:Type="String">da3gong1</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to take a part-time or temporary job</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">打工</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dǎgōng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to take a part-time or temporary job</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">对A来说</Data></Cell>
-    <Cell><Data ss:Type="String">dui4 A lai2shuo1</Data></Cell>
-    <Cell><Data ss:Type="String">grammar</Data></Cell>
-    <Cell><Data ss:Type="String">indicating the person or thing to whom or which a statement pertains</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">对A来说</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">duì A láishuō</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">grammar</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">indicating the person or thing to whom or which a statement pertains</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">算（是）</Data></Cell>
-    <Cell><Data ss:Type="String">suan4(shi4)</Data></Cell>
-    <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">regard as</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">consider</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">算（是）</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">suàn(shì)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">̇① regard as ② consider</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">轻松</Data></Cell>
-    <Cell><Data ss:Type="String">qing1song1</Data></Cell>
-    <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">easy</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">轻松</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">qīngsōng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">easy</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">负担</Data></Cell>
-    <Cell><Data ss:Type="String">fu4dan1</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to burden</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">负担</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fùdān</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to burden</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">负担</Data></Cell>
-    <Cell><Data ss:Type="String">fu4dan1</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">burden</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">负担</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fùdān</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">burden</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">无价之宝</Data></Cell>
-    <Cell><Data ss:Type="String">wu2jia4zhi1bao3</Data></Cell>
-    <Cell><Data ss:Type="String">idiom</Data></Cell>
-    <Cell><Data ss:Type="String">priceless treasure</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">无价之宝</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">wújiàzhībǎo</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">priceless treasure</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">心灵</Data></Cell>
-    <Cell><Data ss:Type="String">xin1ling2</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">heart</Data></Cell>
-    <Cell><Data ss:Type="String">soul</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">心灵</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">xīnlíng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">heart; soul</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">感受</Data></Cell>
-    <Cell><Data ss:Type="String">gan3shou4</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to feel</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">感受</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">gǎnshòu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to feel</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">感受</Data></Cell>
-    <Cell><Data ss:Type="String">gan3shou4</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">feeling</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">感受</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">gǎnshòu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">feeling</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">人间</Data></Cell>
-    <Cell><Data ss:Type="String">ren2jian1</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">the world</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">人间</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">rénjiān</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">the world</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">对得起</Data></Cell>
-    <Cell><Data ss:Type="String">dui4deqi3</Data></Cell>
-    <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to be worthy of</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">对得起</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">duìdeqǐ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">to be worthy of</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">无论</Data></Cell>
-    <Cell><Data ss:Type="String">wu2lun4</Data></Cell>
-    <Cell><Data ss:Type="String">conj</Data></Cell>
-    <Cell><Data ss:Type="String">no matter what/how, etc.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">无论</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">wúlùn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">no matter what/how, etc.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">挫折</Data></Cell>
-    <Cell><Data ss:Type="String">cuo4zhe2</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">setback</Data></Cell>
-    <Cell><Data ss:Type="String">reverse</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">挫折</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">cuòzhé</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">setback; reverse</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">中国青少年发展基金会</Data></Cell>
-    <Cell><Data ss:Type="String">Zhong1guo2 Qing1shao4nian2 Fa1zhan3 Ji1jin1hui4</Data></Cell>
-    <Cell><Data ss:Type="String">proper</Data></Cell>
-    <Cell><Data ss:Type="String">China Youth Development Foundation</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">中国青少年发展基金会</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Zhōngguó Qīngshàonián Fāzhǎn Jījīnhuì</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">China Youth Development Foundation</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">井冈山</Data></Cell>
-    <Cell><Data ss:Type="String">Jing3gang1 Shan1</Data></Cell>
-    <Cell><Data ss:Type="String">proper</Data></Cell>
-    <Cell><Data ss:Type="String">Jinggang Mountain, a montain located in the remote border region between Jiangxi and Hunan provinces</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">井冈山</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Jǐnggāng Shān</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Jinggang Mountain, a montain located in the remote border region between Jiangxi and Hunan provinces</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">黄志强</Data></Cell>
-    <Cell><Data ss:Type="String">Huang2 Zhi4qiang2</Data></Cell>
-    <Cell><Data ss:Type="String">proper</Data></Cell>
-    <Cell><Data ss:Type="String">name of a person</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">黄志强</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Huáng Zhìqiáng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">name of a person</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">江西</Data></Cell>
-    <Cell><Data ss:Type="String">Jiang1xi1</Data></Cell>
-    <Cell><Data ss:Type="String">proper</Data></Cell>
-    <Cell><Data ss:Type="String">Jiangxi province, a southern province in China</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">江西</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Jiāngxī</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Jiangxi province, a southern province in China</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -466,68 +459,13 @@
    </PageSetup>
    <Unsynced/>
    <Selected/>
-   <LeftColumnVisible>2</LeftColumnVisible>
+   <TopRowVisible>42</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>19</ActiveRow>
-     <ActiveCol>8</ActiveCol>
-    </Pane>
-   </Panes>
-   <ProtectObjects>False</ProtectObjects>
-   <ProtectScenarios>False</ProtectScenarios>
-  </WorksheetOptions>
- </Worksheet>
- <Worksheet ss:Name="text">
-  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="14" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Column ss:Width="516"/>
-   <Column ss:Width="333"/>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">中文</Data></Cell>
-    <Cell><Data ss:Type="String">拼音</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">我的希望工程</Data></Cell>
-    <Cell><Data ss:Type="String">wo3 de xi1wang4 gong1cheng2</Data></Cell>
-   </Row>
-   <Row ss:Index="4" ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">1989年10月30号，中国青少年发展基金会召开新闻发布会，正式宣布：</Data></Cell>
-    <Cell><Data ss:Type="String">nian1 yue2 hao4 zhong1guo2qing1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">“建立我国第一个救助贫困地区失学青少年基金会”。这项工程定名为“希望工程”。</Data></Cell>
-   </Row>
-   <Row ss:Index="7" ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">几年来，“希望工程”救助了成千上万的失学青少年，便他们重新回到了校园。</Data></Cell>
-   </Row>
-   <Row ss:Index="9" ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">一位北京的大学生发到了井冈山少年的一封信，由此引出下面一个感人的故事————</Data></Cell>
-    <Cell><Data ss:Type="String">yi1 wei4 bei1jing1 de da4xue2sheng1 fa1bu4 dao4 le Jing3gang1 Shan1 </Data></Cell>
-   </Row>
-   <Row ss:Index="11" ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">我用颤抖的手拆开邮报，由于激动，用力过猛，葵花子洒了一地。不知道怎么，</Data></Cell>
-    <Cell><Data ss:Type="String">wo3 yong4 </Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">我的心理一酸，跟钱一片模糊。人们常说，男子汉是轻易不掉眼泪的。可此时，我控制不住自己了。</Data></Cell>
-   </Row>
-   <Row ss:Index="14" ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">邮报上的字歪歪扭扭，</Data></Cell>
-   </Row>
-  </Table>
-  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
-   <PageSetup>
-    <Header x:Margin="0.3"/>
-    <Footer x:Margin="0.3"/>
-    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
-   </PageSetup>
-   <Unsynced/>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>11</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+     <RangeSelection>R2C4:R24C4</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

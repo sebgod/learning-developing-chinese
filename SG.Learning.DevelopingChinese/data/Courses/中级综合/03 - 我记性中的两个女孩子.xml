@@ -33,22 +33,25 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="vocabulary">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="120"/>
    <Column ss:Width="129.75"/>
-   <Column ss:Width="45"/>
-   <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:Width="45.75"/>
+   <Column ss:Width="203.25"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">中文</Data></Cell>
     <Cell><Data ss:Type="String">拼音</Data></Cell>
     <Cell><Data ss:Type="String">词性</Data></Cell>
     <Cell><Data ss:Type="String">英文</Data></Cell>
-    <Cell><Data ss:Type="String">英文and1</Data></Cell>
-    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">记忆</Data></Cell>
@@ -56,18 +59,17 @@
     <Cell><Data ss:Type="String">noun</Data></Cell>
     <Cell><Data ss:Type="String">memory</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">者</Data></Cell>
-    <Cell><Data ss:Type="String">zhě</Data></Cell>
-    <Cell><Data ss:Type="String">suffix</Data></Cell>
-    <Cell><Data ss:Type="String">used after an adjective, verb, adjectival phrase or verbal phrase to indicate that a person or thing possesses that quality or performs that action.</Data></Cell>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">者</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">zhě</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">suffix</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">used after an adjective, verb, adjectival phrase or verbal phrase to indicate that a person or thing possesses that quality or performs that action.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">赛</Data></Cell>
     <Cell><Data ss:Type="String">sāi</Data></Cell>
     <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to stuff</Data></Cell>
-    <Cell><Data ss:Type="String">to squeeze in</Data></Cell>
+    <Cell><Data ss:Type="String">to stuff; to squeeze in</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">贼</Data></Cell>
@@ -79,15 +81,13 @@
     <Cell><Data ss:Type="String">明白</Data></Cell>
     <Cell><Data ss:Type="String">míngbai</Data></Cell>
     <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to understand</Data></Cell>
-    <Cell><Data ss:Type="String">to know</Data></Cell>
+    <Cell><Data ss:Type="String">to understand; to know</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">从来</Data></Cell>
     <Cell><Data ss:Type="String">cónglái</Data></Cell>
     <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">all along</Data></Cell>
-    <Cell><Data ss:Type="String">ever</Data></Cell>
+    <Cell><Data ss:Type="String">all along; ever</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">场</Data></Cell>
@@ -105,8 +105,7 @@
     <Cell><Data ss:Type="String">即将</Data></Cell>
     <Cell><Data ss:Type="String">jíjiāng</Data></Cell>
     <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">be on the point of</Data></Cell>
-    <Cell><Data ss:Type="String">be about to</Data></Cell>
+    <Cell><Data ss:Type="String">be on the point of; be about to</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">削</Data></Cell>
@@ -118,15 +117,13 @@
     <Cell><Data ss:Type="String">怨</Data></Cell>
     <Cell><Data ss:Type="String">yuàn</Data></Cell>
     <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to blame</Data></Cell>
-    <Cell><Data ss:Type="String">to complain</Data></Cell>
+    <Cell><Data ss:Type="String">to blame; to complain</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">感情</Data></Cell>
     <Cell><Data ss:Type="String">gǎnqíng</Data></Cell>
     <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">love</Data></Cell>
-    <Cell><Data ss:Type="String">affection</Data></Cell>
+    <Cell><Data ss:Type="String">love; affection</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">勉强</Data></Cell>
@@ -198,8 +195,7 @@
     <Cell><Data ss:Type="String">始终</Data></Cell>
     <Cell><Data ss:Type="String">shǐzhōng</Data></Cell>
     <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">all along</Data></Cell>
-    <Cell><Data ss:Type="String">from beginning to end</Data></Cell>
+    <Cell><Data ss:Type="String">all along; from beginning to end</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">合</Data></Cell>
@@ -231,11 +227,11 @@
     <Cell><Data ss:Type="String">measure</Data></Cell>
     <Cell><Data ss:Type="String">(a measure word) pair</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">口</Data></Cell>
-    <Cell><Data ss:Type="String">kǒu</Data></Cell>
-    <Cell><Data ss:Type="String">measure</Data></Cell>
-    <Cell><Data ss:Type="String">a measure word for something with a mouth, etc</Data></Cell>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">口</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">kǒu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">a measure word for something with a mouth, etc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">口</Data></Cell>
@@ -265,15 +261,13 @@
     <Cell><Data ss:Type="String">含</Data></Cell>
     <Cell><Data ss:Type="String">hán</Data></Cell>
     <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to have</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">to wear (clothes)</Data></Cell>
+    <Cell><Data ss:Type="String">① to have ② to wear (clothes)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">显得</Data></Cell>
     <Cell><Data ss:Type="String">xiǎnde</Data></Cell>
     <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to look</Data></Cell>
-    <Cell ss:Index="6"><Data ss:Type="String">to appear</Data></Cell>
+    <Cell><Data ss:Type="String">① to look ② to appear</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">老乡</Data></Cell>
@@ -297,8 +291,7 @@
     <Cell><Data ss:Type="String">故意</Data></Cell>
     <Cell><Data ss:Type="String">gùyì</Data></Cell>
     <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">on purpose</Data></Cell>
-    <Cell><Data ss:Type="String">intentionally</Data></Cell>
+    <Cell><Data ss:Type="String">on purpose; intentionally</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">无所谓</Data></Cell>
@@ -316,8 +309,7 @@
     <Cell><Data ss:Type="String">表白</Data></Cell>
     <Cell><Data ss:Type="String">biǎobái</Data></Cell>
     <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to express</Data></Cell>
-    <Cell><Data ss:Type="String">to speak out</Data></Cell>
+    <Cell><Data ss:Type="String">to express; to speak out</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">遗憾</Data></Cell>
@@ -343,11 +335,11 @@
     <Cell><Data ss:Type="String">adv</Data></Cell>
     <Cell><Data ss:Type="String">all of a sudden</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">座</Data></Cell>
-    <Cell><Data ss:Type="String">zuò</Data></Cell>
-    <Cell><Data ss:Type="String">measure</Data></Cell>
-    <Cell><Data ss:Type="String">a measure word for buildings, mountains, etc.</Data></Cell>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">座</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">zuò</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">a measure word for buildings, mountains, etc.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">激动</Data></Cell>
@@ -359,8 +351,7 @@
     <Cell><Data ss:Type="String">痛苦</Data></Cell>
     <Cell><Data ss:Type="String">tòngkǔ</Data></Cell>
     <Cell><Data ss:Type="String">adj</Data></Cell>
-    <Cell><Data ss:Type="String">painful</Data></Cell>
-    <Cell><Data ss:Type="String">agonized</Data></Cell>
+    <Cell><Data ss:Type="String">painful; agonized</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">解脱</Data></Cell>
@@ -408,14 +399,13 @@
     <Cell><Data ss:Type="String">偶像</Data></Cell>
     <Cell><Data ss:Type="String">ǒuxiàng</Data></Cell>
     <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">image</Data></Cell>
-    <Cell><Data ss:Type="String">idol</Data></Cell>
+    <Cell><Data ss:Type="String">image; idol</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">股</Data></Cell>
-    <Cell><Data ss:Type="String">gǔ</Data></Cell>
-    <Cell><Data ss:Type="String">measure</Data></Cell>
-    <Cell><Data ss:Type="String">a measure word for strength, smell, or a long, narrow thing, etc.</Data></Cell>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">股</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">gǔ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">a measure word for strength, smell, or a long, narrow thing, etc.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">平行</Data></Cell>
@@ -429,11 +419,11 @@
     <Cell><Data ss:Type="String">adj</Data></Cell>
     <Cell><Data ss:Type="String">so-called</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">缘分</Data></Cell>
-    <Cell><Data ss:Type="String">yuánfèn</Data></Cell>
-    <Cell><Data ss:Type="String">noun</Data></Cell>
-    <Cell><Data ss:Type="String">lot or luck by which people are brought together</Data></Cell>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">缘分</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">yuánfèn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lot or luck by which people are brought together</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">顿时</Data></Cell>
@@ -445,15 +435,13 @@
     <Cell><Data ss:Type="String">珍惜</Data></Cell>
     <Cell><Data ss:Type="String">zhēnxī</Data></Cell>
     <Cell><Data ss:Type="String">verb</Data></Cell>
-    <Cell><Data ss:Type="String">to treasure</Data></Cell>
-    <Cell><Data ss:Type="String">to cherish</Data></Cell>
+    <Cell><Data ss:Type="String">to treasure; to cherish</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">莫</Data></Cell>
     <Cell><Data ss:Type="String">mò</Data></Cell>
     <Cell><Data ss:Type="String">adv</Data></Cell>
-    <Cell><Data ss:Type="String">no</Data></Cell>
-    <Cell><Data ss:Type="String">not</Data></Cell>
+    <Cell><Data ss:Type="String">no; not</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">湖南</Data></Cell>
@@ -482,12 +470,11 @@
    </PageSetup>
    <Unsynced/>
    <Selected/>
-   <TopRowVisible>44</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>66</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>53</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

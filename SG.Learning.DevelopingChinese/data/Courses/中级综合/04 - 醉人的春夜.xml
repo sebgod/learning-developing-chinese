@@ -35,20 +35,17 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="vocabulary">
-  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="120"/>
    <Column ss:Width="129.75"/>
    <Column ss:Width="45"/>
    <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">中文</Data></Cell>
     <Cell><Data ss:Type="String">拼音</Data></Cell>
     <Cell><Data ss:Type="String">词性</Data></Cell>
     <Cell><Data ss:Type="String">英文</Data></Cell>
-    <Cell><Data ss:Type="String">英文and1</Data></Cell>
-    <Cell><Data ss:Type="String">英文alt1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
@@ -263,12 +260,11 @@
    </PageSetup>
    <Unsynced/>
    <Selected/>
-   <TopRowVisible>39</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>62</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
