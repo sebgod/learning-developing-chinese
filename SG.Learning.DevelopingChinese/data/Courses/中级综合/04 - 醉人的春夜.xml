@@ -9,7 +9,7 @@
   <Author>Sebastian Godelet</Author>
   <LastAuthor>Sebastian Godelet</LastAuthor>
   <Created>2014-09-17T06:42:20Z</Created>
-  <LastSaved>2014-09-17T13:22:55Z</LastSaved>
+  <LastSaved>2014-12-13T03:19:52Z</LastSaved>
   <Version>14.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -33,223 +33,472 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="vocabulary">
-  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="76" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="120"/>
    <Column ss:Width="129.75"/>
    <Column ss:Width="45"/>
    <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">中文</Data></Cell>
-    <Cell><Data ss:Type="String">拼音</Data></Cell>
-    <Cell><Data ss:Type="String">词性</Data></Cell>
-    <Cell><Data ss:Type="String">英文</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">中文</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">拼音</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">词性</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">英文</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">醉</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">zuì</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to be drunk; to intoxicate (oneself)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">昏</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">hūn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dusky</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">黑黝黝</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">hēiyōuyōu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">shiny black</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">倒霉</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dǎo méi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to have bad luck; to get into trouble</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">无可奈何</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">wú  kě nàihé</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">be utterly helpless</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">串</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chuàn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">a measure word for astring of things</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">串</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chuàn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to go from place to place</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">掠</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">lüè</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to sweep past</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">咦</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yí</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">onom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">(expression surprise) well, why</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">自卫</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">zìwèi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to defend oneself</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">上风</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">shàngfēng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">upper hand</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">语无伦次</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yǔ wú lúncì</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to speak incoherently or illogically</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">似笑非笑</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">sì xiào fēi xiào</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to wear a faint smile</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">稍</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">shāo</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">slightly</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">震惊</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">zhènjìng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">calm</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">莲子</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">liànzi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chain</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">卡</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">qiǎ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to get stuck</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">帮忙</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">bāng máng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to help; to give sb. A hand</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">grammar</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">连涛</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">liàntào</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">conj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chain case</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">不觉</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">bùjué</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">grammar</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">unconsciously</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">车铺</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chēpù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">shop for repairing bicycles</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">跨</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">kuà</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to stride; to step</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">差点儿</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chàdiǎnr</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">idiom</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">almost; nearly</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">咒</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">zhòu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to curse; to abuse</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">噩梦</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">èmèng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">terrible dream; nightmare</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">A归A</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">A guī A</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">(used between identical verbs) despite, regardless of</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">踌躇</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chóuchú</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to hesistate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">冲</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chòng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">prep</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">facing; towards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">沮丧</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jǔsàng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">depressed; dispirited; disheartened</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">沮丧</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jǔsàng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to depress; to dispirit; to dishearten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">恐惧</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">kǒngjù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to fighten; to fear; to dread</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">恐惧</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">kǒngjù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">frightened</Data></Cell>
+   </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">一股脑儿</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yìgǔ'nǎor</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">completely</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">一股脑儿</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yìgǔ'nǎor</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">root and branch</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">临</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">lín</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to overlook; to face</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">平方</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">píngfáng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">one-storey house</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">蹲</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dūn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to squat</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">改锥</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">gǎizhuī</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">screwdriver</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">愣</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">lèng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to dumbfound</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">愣</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">lèng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dumbfounded</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">调皮</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">tiáopí</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">naughty</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">眨</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">zhǎ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to blink; to wink</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">嫂子</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">sǎozi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">elder brother's wife</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">夜班</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yèbān</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">night shift</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">极强</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jīqiāng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">machine gun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">prep</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">个体户</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">gètǐhù</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">self-employed laborer</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">pronoun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">招呼</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">zhāohu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to call; to greet; to take care of</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">胆子</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dǎnzi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">courage; nerve</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">难为情</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">nánwéiqíng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">embarrassed</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">随机</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">suíjí</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">immediately</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">油污</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yóuwū</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">greasy dirt</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">suffix</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">惊</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jīng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to surprise</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">掏</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">tāo</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to take out</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">钱包</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">qiánbāo</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">noun</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">purse</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">多心</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">duō xīn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oversensitive</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">瞎</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">xiā</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to be blind</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">瞎</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">xiā</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">groundlessly; foolishly; to no purpose</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">逗</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dòu</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to tease (for fun)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">开业</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">kāi yè</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to start a business (of a shop etc.)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">搓</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">cuō</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to rub with the hands</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">咧</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">liě</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to grin</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">洁白</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">jiébái</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">pure white</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">拂</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fú</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to stroke; to touch lightly</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">痒</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yǎng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">itchy</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">grammar</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">痒</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yǎng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">verb</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">to itch</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">grammar</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">格外</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">géwài</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adv</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">exceptionally, espacially</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">grammar</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">耀眼</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">yàoyǎn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dazzling</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">suffix</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">醇美</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">chúnměi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adj</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">mellow</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">陈静</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Chén Jìng</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">name of a person (Chen Jing)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">measure</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">proper</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -259,12 +508,19 @@
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
    <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
    <Selected/>
+   <TopRowVisible>45</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>9</ActiveRow>
-     <ActiveCol>3</ActiveCol>
+     <ActiveRow>71</ActiveRow>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
